@@ -14,14 +14,16 @@ profiles:
     content: profile/about_dhruva.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>dhruvashaw@ieee.org</p>
-      <p>me@dhruvashaw.in</p>
-      <p>dhruvashaw.in</p>
+      <p>Dhruva Shaw</p>
+      <p><a href="mailto:dhruvashaw@ieee.org">dhruvashaw@ieee.org</a></p>
+      <p><a href="mailto:me@dhruvashaw.in">me@dhruvashaw.in</a></p>
+      <p><a href="dhruvashaw.in" target="_blank">dhruvashaw.in</a></p>
   - align: left
     image: at.png
     content: profile/about_arittrabha.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>arittrabha-biotech.pages.dev</p>
-      <p>arittrabhasengupta@gmail.com</p>
+      <p>Arittrabha Sengupta</p>
+      <p><a href="arittrabha-biotech.pages.dev"  target="_blank">arittrabha-biotech.pages.dev</a></p>
+      <p><a href="mailto:arittrabhasengupta@gmail.com">arittrabhasengupta@gmail.com</a></p>
 ---
