@@ -2,7 +2,7 @@
 layout: distill
 title: Mind Controlled Bionic Arm with Sense of Touch
 description: Imagine a prosthetic arm that functions like your natural arm. You wear a headband, and with the thought process, the working signal from mind connects to the prosthetic about moving the arm, it responds accordingly—just like your real arm!
-tags: distill formatting
+tags: Bionic Arm Robotics Biotechnology Mind Control Prosthetics
 giscus_comments: true
 img: /assets/img/mcba_logo.jpeg
 date: 2024-12-12
@@ -43,6 +43,7 @@ authors:
       name: Lovely Professional University
 
 bibliography: papers.bib
+citation: true
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
