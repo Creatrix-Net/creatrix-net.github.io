@@ -52,6 +52,12 @@ bibliography: papers.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc: true
+
+_styles: >
+    object {
+        width:100%;
+        max-height:100%;
+    }
 ---
 
 ## Abstract
@@ -122,4 +128,4 @@ _Future Directions_:
 ## Protocols
 Here is the protocol(steps) to reproduce our work with ease.
 <iframe src="https://www.protocols.io/widgets/doi?uri=dx.doi.org/10.17504/protocols.io.n92ldr869g5b/v1" style="width: 520px; height: 300px; border: 1px solid transparent;"></iframe>
-<object data="https://dhruvashaw.in/assets/pdf/resume.pdf" type='application/pdf'/>
+<object data='{{ "/assets/pdf/protocol_mcba.pdf" | relative_url  }}' type='application/pdf'/>
