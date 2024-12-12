@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Terms and Conditions for Minato Namikaze Discord Bot
+title: Terms and Conditions
 permalink: /policies/tandc/
-description: Terms and Conditions for Minato Namikaze Discord Bot
+description: Terms and Conditions
 nav: false
 nav_order: 11
 horizontal: false

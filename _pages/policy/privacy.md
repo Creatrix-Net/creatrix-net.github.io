@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Privacy Policy for Minato Namikaze Discord Bot
+title: Privacy Policy
 permalink: /policies/privacy/
-description: Privacy Policy for Minato Namikaze Discord Bot
+description: Privacy Policy
 nav: false
 nav_order: 9
 horizontal: false

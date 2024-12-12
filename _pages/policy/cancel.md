@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Cancellation Policy & Refund and Return Policy for Minato Namikaze Bot
+title: Cancellation Policy & Refund and Return Policy
 permalink: /policies/cancelandrefund/
-description: Cancellation Policy & Refund and Return Policy for Minato Namikaze Bot
+description: Cancellation Policy & Refund and Return Policy
 nav: false
 nav_order: 10
 horizontal: false
