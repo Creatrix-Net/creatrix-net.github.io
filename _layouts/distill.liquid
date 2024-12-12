@@ -115,16 +115,16 @@
           </d-contents>
         {% endif %}
         {{ content }}
+
+        {% if page.citation %}
+          {% include citation.liquid %}
+        {% endif %}s
       </d-article>
 
       <d-appendix>
         <d-footnote-list></d-footnote-list>
         <d-citation-list></d-citation-list>
       </d-appendix>
-
-        {% if page.citation %}
-          {% include citation.liquid %}
-        {% endif %}
 
 
       <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
