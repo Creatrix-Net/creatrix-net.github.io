@@ -4,7 +4,7 @@ layout: page
 title: Minato Namikaze
 description: Konichiwa 👋, myself Minato Namikaze, Konohagakure Yondaime Hokage. I do every work of a Hokage in a swift and clean way ⚡
 img: /assets/img/minatologo.jpeg
-importance: 1
+importance: 2
 category: fun
 ---
 
