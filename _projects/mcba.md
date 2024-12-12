@@ -79,14 +79,14 @@ The dataset, originally provided in **CSV format**, underwent a comprehensive pr
 * Each individual channel's EEG data was converted into **audio signals** and saved in **.wav format**, allowing the brain signals to be audibly analyzed.
 * The entire preprocessing workflow was implemented in **Python** to ensure scalability and accuracy.
 The dataset captured brainwave signals corresponding to the following activities:
-1) **BEO** (Baseline with Eyes Open): One-time recording at the beginning of each run [3].
-2) **CLH** (Closing Left Hand): Five recordings per run [3].
-3) **CRH** (Closing Right Hand): Five recordings per run [3].
-4) **DLF** (Dorsal Flexion of Left Foot): Five recordings per run [3].
-5) **PLF** (Plantar Flexion of Left Foot): Five recordings per run [3].
-6) **DRF** (Dorsal Flexion of Right Foot): Five recordings per run [3].
-7) **PRF** (Plantar Flexion of Right Foot): Five recordings per run [3].
-8) **Rest**: Recorded between each task to capture the resting state [3] [4].
+1. **BEO** (Baseline with Eyes Open): One-time recording at the beginning of each run [3].
+2. **CLH** (Closing Left Hand): Five recordings per run [3].
+3. **CRH** (Closing Right Hand): Five recordings per run [3].
+4. **DLF** (Dorsal Flexion of Left Foot): Five recordings per run [3].
+5. **PLF** (Plantar Flexion of Left Foot): Five recordings per run [3].
+6. **DRF** (Dorsal Flexion of Right Foot): Five recordings per run [3].
+7. **PRF** (Plantar Flexion of Right Foot): Five recordings per run [3].
+8. **Rest**: Recorded between each task to capture the resting state [3] [4].
 
 ### 3. Feature Extraction and Classification
 Feature extraction and activity classification were performed using **transfer learning** with **YamNet** [5], a deep neural network model.
@@ -122,3 +122,4 @@ _Future Directions_:
 ## Protocols
 Here is the protocol(steps) to reproduce our work with ease.
 <iframe src="https://www.protocols.io/widgets/doi?uri=dx.doi.org/10.17504/protocols.io.n92ldr869g5b/v1" style="width: 520px; height: 300px; border: 1px solid transparent;"></iframe>
+<object data="https://dhruvashaw.in/assets/pdf/resume.pdf" type='application/pdf'/>
