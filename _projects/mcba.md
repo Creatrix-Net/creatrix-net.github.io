@@ -74,24 +74,24 @@ bibliography: papers.bib
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc: true
 
-_styles: >
-    .container {
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-    }
+# _styles: >
+#     .container {
+#         position: relative;
+#         overflow: hidden;
+#         width: 100%;
+#         padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+#     }
 
-    /* Then style the iframe to fit in the container div with full height and width */
-    .responsive-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }
+#     /* Then style the iframe to fit in the container div with full height and width */
+#     .responsive-iframe {
+#         position: absolute;
+#         top: 0;
+#         left: 0;
+#         bottom: 0;
+#         right: 0;
+#         width: 100%;
+#         height: 100%;
+#     }
 ---
 
 ## Abstract
@@ -168,34 +168,4 @@ Here is the protocol(steps) to reproduce our work with ease.
 
 ---
 
-<article>
-    {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
-          {% endif %}
-        </div>
-
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
-        </div>
-      {% endfor %}
-    {% endif %}
-  </article>
+{% include profiles.liquid %}
