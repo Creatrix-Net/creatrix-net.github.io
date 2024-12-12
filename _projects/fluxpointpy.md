@@ -5,7 +5,7 @@ description: A modern, easy to use, feature-rich, and async ready API wrapper fo
 img: /assets/img/fluxpoint.png
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: fun
 ---
 
 ## fluxpoint.py
