@@ -5,7 +5,7 @@ description: Imagine a prosthetic arm that functions like your natural arm. You 
 tags: Bionic Arm Robotics Biotechnology Mind Control Prosthetics
 giscus_comments: true
 citation: true
-img: /assets/img/mcba_logo.jpeg
+img: /assets/img/mcba/mcba_logo.jpeg
 date: 2024-12-12
 importance: 1
 category: work
@@ -63,21 +63,21 @@ profiles:
       <p>Arittrabha Sengupta</p>
       <p><a href="mailto:arittrabhasengupta@gmail.com">arittrabhasengupta@gmail.com</a></p>
   - align: right
-    image: jay_pic.jpg
+    image: mcba/jay_pic.jpg
     content: profile/about_jaykhaple.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Jay Baswaraj Khaple</p>
       <p><a href="mailto:khaplejay00@gmail.com">khaplejay00@gmail.com</a></p>
   - align: left
-    image: bhavya_pic.jpg
+    image: mcba/bhavya_pic.jpg
     content: profile/about_bhavya.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Bhavya Choudhary</p>
       <p><a href="mailto:choudharybhavya225@gmail.com">choudharybhavya225@gmail.com</a></p>
   - align: right
-    image: raam_pic.jpg
+    image: mcba/raam_pic.jpg
     content: profile/about_raamdheep.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -87,7 +87,7 @@ profiles:
 toc: true
 
 _styles: >
-    .container {
+    .containerpdf {
         position: relative;
         overflow: hidden;
         width: 100%;
@@ -174,9 +174,29 @@ _Future Directions_:
 ## Protocols
 Here is the protocol(steps) to reproduce our work with ease.
 <iframe src="https://www.protocols.io/widgets/doi?uri=dx.doi.org/10.17504/protocols.io.n92ldr869g5b/v1" style="width: 100%; height: 300px; border: 1px solid transparent;"></iframe>
-<div class="container">
+<div class="containerpdf">
     <object data='{{ "/assets/pdf/protocol_mcba.pdf" | relative_url  }}' class="responsive-object-pdf" type='application/pdf'></object>
 </div>
+
+---
+
+## Training Graph
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/learninggraph.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+            Learning Graph
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/learninggraph_log.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+            Learning Graph in Log Scale
+        </div>
+    </div>
+</div>
+
 
 ---
 
