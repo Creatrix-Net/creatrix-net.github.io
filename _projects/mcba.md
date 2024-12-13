@@ -125,6 +125,15 @@ The model development utilized a publicly available EEG dataset comprising data 
     - **A bandpass filter (5–50 Hz)** to isolate relevant frequencies<d-cite key="asanza2023"></d-cite>.
     - **A notch filter (60 Hz)** to remove powerline interference<d-cite key="asanza2023"></d-cite>.
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/16_electrode_system.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+            16 dry electrodes - international 10-10 system <d-cite key="asanza2023"></d-cite>
+        </div>
+    </div>
+</div>
+
 ### 2. Data Preprocessing
 The dataset, originally provided in **CSV format**, underwent a comprehensive preprocessing workflow:
 * The data was split into individual CSV files for each of the 16 channels, resulting in an increase from **74,441** files to **1,191,056** files.
