@@ -214,7 +214,7 @@ Here is the protocol(steps) to reproduce our work with ease.
 
 {% tabs results %}
 
-{% tab results "Results Table" %}
+{% tab results Results Table %}
 
 
 | name           | classes_1   | classes_2   | classes_3   | classes_4   | classes_5   | classes_6   | classes_7   | classes_8   | macroAVG    | microAVG    |
@@ -232,7 +232,7 @@ Here is the protocol(steps) to reproduce our work with ease.
 
 {% endtab %}
 
-{% tab results "Confusion Matrix" %}
+{% tab results Confusion Matrix %}
 
 <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/mcba/confusion_matrix.png" class="img-fluid rounded z-depth-1" zoomable=true %}
