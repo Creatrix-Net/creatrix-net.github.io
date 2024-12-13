@@ -42,6 +42,8 @@ authors:
     affiliations:
       name: Lovely Professional University
 
+bibliography: papers.bib
+
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
@@ -82,8 +84,6 @@ profiles:
       <p>Dr. Raam Dheep</p>
       <p><a href="mailto:raam.25227@lpu.co.in">raam.25227@lpu.co.in</a></p>
 
-
-bibliography: papers.bib
 toc: true
 
 # _styles: >
