@@ -119,11 +119,11 @@ This novel approach aims to deliver an intuitive, natural, and efficient solutio
 
 ## Methodology
 ### 1. Data Collection and Dataset Overview
-The model development utilized a publicly available EEG dataset comprising data from **60 volunteers** performing **8 distinct activities** [3]. The dataset includes a total of **8,680 four-second EEG recordings**, collected using **16 dry electrodes** configured according to the **international 10-10 system** [3].
+The model development utilized a publicly available EEG dataset comprising data from **60 volunteers** performing **8 distinct activities** . The dataset includes a total of **8,680 four-second EEG recordings**, collected using **16 dry electrodes** configured according to the **international 10-10 system**.
 * Electrode Configuration: Monopolar configuration, where each electrode's potential was measured relative to neutral electrodes placed on both earlobes (ground references).
 * Signal Sampling: EEG signals were sampled at **125 Hz** and preprocessed using:
-    - **A bandpass filter (5–50 Hz)** to isolate relevant frequencies [3].
-    - **A notch filter (60 Hz)** to remove powerline interference [3].
+    - **A bandpass filter (5–50 Hz)** to isolate relevant frequencies.
+    - **A notch filter (60 Hz)** to remove powerline interference.
 
 ### 2. Data Preprocessing
 The dataset, originally provided in **CSV format**, underwent a comprehensive preprocessing workflow:
@@ -131,25 +131,25 @@ The dataset, originally provided in **CSV format**, underwent a comprehensive pr
 * Each individual channel's EEG data was converted into **audio signals** and saved in **.wav format**, allowing the brain signals to be audibly analyzed.
 * The entire preprocessing workflow was implemented in **Python** to ensure scalability and accuracy.
 The dataset captured brainwave signals corresponding to the following activities:
-1. **BEO** (Baseline with Eyes Open): One-time recording at the beginning of each run [3].
-2. **CLH** (Closing Left Hand): Five recordings per run [3].
-3. **CRH** (Closing Right Hand): Five recordings per run [3].
-4. **DLF** (Dorsal Flexion of Left Foot): Five recordings per run [3].
-5. **PLF** (Plantar Flexion of Left Foot): Five recordings per run [3].
-6. **DRF** (Dorsal Flexion of Right Foot): Five recordings per run [3].
-7. **PRF** (Plantar Flexion of Right Foot): Five recordings per run [3].
-8. **Rest**: Recorded between each task to capture the resting state [3] [4].
+1. **BEO** (Baseline with Eyes Open): One-time recording at the beginning of each run.
+2. **CLH** (Closing Left Hand): Five recordings per run.
+3. **CRH** (Closing Right Hand): Five recordings per run.
+4. **DLF** (Dorsal Flexion of Left Foot): Five recordings per run.
+5. **PLF** (Plantar Flexion of Left Foot): Five recordings per run.
+6. **DRF** (Dorsal Flexion of Right Foot): Five recordings per run.
+7. **PRF** (Plantar Flexion of Right Foot): Five recordings per run.
+8. **Rest**: Recorded between each task to capture the resting state.
 
 ### 3. Feature Extraction and Classification
 Feature extraction and activity classification were performed using **transfer learning** with **YamNet** <d-cite key="yamnetgithub"></d-cite>, a deep neural network model.
-* **Audio Representation**: Audio files were imported into **MATLAB** using an **Audio Datastore** [6]. Mel-spectrograms, a time-frequency representation of the audio signals, were extracted using the yamnetPreprocess <d-cite key="yamnetpreprocess"></d-cite> function <d-cite key="transferlearningmatlab"></d-cite>.
+* **Audio Representation**: Audio files were imported into **MATLAB** using an **Audio Datastore**. Mel-spectrograms, a time-frequency representation of the audio signals, were extracted using the yamnetPreprocess.
 * Dataset Split: The data was divided into **training (70%)**, **validation (20%)**, and **testing (10%)** sets.
-Transfer Learning with YamNet <d-cite key="yamnetgithub, transferlearningmatlab"></d-cite>:
-- The **pre-trained YamNet model** (86 layers) <d-cite key="yamnetgithub"></d-cite> was adapted for an 8-class classification task:
-    + The initial layers of YamNet <d-cite key="yamnetgithub"></d-cite> were **frozen** to retain previously learned representations <d-cite key="transferlearningmatlab"></d-cite>.
-    + A **new classification layer** was added to the model <d-cite key="transferlearningmatlab"></d-cite>.
+Transfer Learning with YamNet :
+- The **pre-trained YamNet model** (86 layers) was adapted for an 8-class classification task:
+    + The initial layers of YamNet were **frozen** to retain previously learned representations.
+    + A **new classification layer** was added to the model.
 - Training details:
-    + **Learning Rate**: Initial rate of **3e-4**, with an exponential learning rate decay schedule <d-cite key="transferlearningmatlab"></d-cite>.
+    + **Learning Rate**: Initial rate of **3e-4**, with an exponential learning rate decay schedule.
     + **Mini-Batch Size**: 128 samples per batch.
     + **Validation**: Performed every **651 iterations**.
 
