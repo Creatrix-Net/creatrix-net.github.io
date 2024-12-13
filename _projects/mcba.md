@@ -86,24 +86,24 @@ profiles:
 
 toc: true
 
-# _styles: >
-#     .container {
-#         position: relative;
-#         overflow: hidden;
-#         width: 100%;
-#         padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-#     }
+_styles: >
+    .container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    }
 
-#     /* Then style the iframe to fit in the container div with full height and width */
-#     .responsive-iframe {
-#         position: absolute;
-#         top: 0;
-#         left: 0;
-#         bottom: 0;
-#         right: 0;
-#         width: 100%;
-#         height: 100%;
-#     }
+    /* Then style the iframe to fit in the container div with full height and width */
+    .responsive-object-pdf {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
 ---
 
 ## Abstract
@@ -175,7 +175,7 @@ _Future Directions_:
 Here is the protocol(steps) to reproduce our work with ease.
 <iframe src="https://www.protocols.io/widgets/doi?uri=dx.doi.org/10.17504/protocols.io.n92ldr869g5b/v1" style="width: 100%; height: 300px; border: 1px solid transparent;"></iframe>
 <div class="container">
-    <object data='{{ "/assets/pdf/protocol_mcba.pdf" | relative_url  }}' class="responsive-iframe" type='application/pdf'></object>
+    <object data='{{ "/assets/pdf/protocol_mcba.pdf" | relative_url  }}' class="responsive-object-pdf" type='application/pdf'></object>
 </div>
 
 ---
