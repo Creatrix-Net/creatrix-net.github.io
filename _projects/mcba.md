@@ -84,13 +84,6 @@ profiles:
 
 
 bibliography: papers.bib
-
-# Optionally, you can add a table of contents to your post.
-# NOTES:
-#   - make sure that TOC names match the actual section names
-#     for hyperlinks within the post to work correctly.
-#   - we may want to automate TOC generation in the future using
-#     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc: true
 
 # _styles: >
