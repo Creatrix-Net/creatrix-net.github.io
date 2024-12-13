@@ -20,6 +20,7 @@ chart:
   vega_lite: true
 tikzjax: true
 typograms: true
+tabs: true
 
 authors:
   - name: Dhruva Shaw
