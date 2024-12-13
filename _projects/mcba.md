@@ -9,6 +9,7 @@ img: /assets/img/mcba/mcba_logo.jpeg
 date: 2024-12-12
 importance: 1
 category: work
+pretty_table: true
 mermaid:
   enabled: true
   zoomable: true
@@ -206,6 +207,42 @@ Here is the protocol(steps) to reproduce our work with ease.
     </div>
 </div>
 
+---
+
+## Results
+
+{% tabs results %}
+
+{% tab results Results-Table %}
+
+
+| name           | classes_1   | classes_2   | classes_3   | classes_4   | classes_5   | classes_6   | classes_7   | classes_8   | macroAVG    | microAVG    |
+|----------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+| true_positive  | 0           | 0           | 0           | 0           | 0           | 960         | 0           | 0           | 120         | 120         |
+| false_positive | 0           | 0           | 0           | 0           | 0           | 10944       | 0           | 0           | 1368        | 1368        |
+| false_negative | 192         | 958         | 960         | 960         | 960         | 0           | 960         | 5954        | 1368        | 1368        |
+| true_negative  | 11712       | 10946       | 10944       | 10944       | 10944       | 0           | 10944       | 5950        | 9048        | 9048        |
+| precision      |             |             |             |             |             | 0.080645161 |             |             |             | 0.080645161 |
+| sensitivity    | 0           | 0           | 0           | 0           | 0           | 1           | 0           | 0           | 0.125       | 0.080645161 |
+| specificity    | 1           | 1           | 1           | 1           | 1           | 0           | 1           | 1           | 0.875       | 0.868663594 |
+| accuracy       | 0.080645161 | 0.080645161 | 0.080645161 | 0.080645161 | 0.080645161 | 0.080645161 | 0.080645161 | 0.080645161 | 0.080645161 | 0.080645161 |
+| F-measure      |             |             |             |             |             | 0.149253731 |             |             |             | 0.080645161 |
+
+
+{% endtab %}
+
+{% tab results Confusion-Matrix %}
+
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/mcba/confusion_matrix.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    <div class="caption">
+        Confusin Matrix of the trained model.
+    </div>
+</div>
+
+{% endtab %}
+
+{% endtabs %}
 
 ---
 
