@@ -46,23 +46,36 @@ authors:
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: profile/about_dhruva.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Dhruva Shaw</p>
-      <p><a href="mailto:dhruvashaw@ieee.org">dhruvashaw@ieee.org</a></p>
-      <p><a href="mailto:me@dhruvashaw.in">me@dhruvashaw.in</a></p>
-      <p><a href="https://dhruvashaw.in" target="_blank">dhruvashaw.in</a></p>
-  - align: left
-    image: at.png
-    content: profile/about_arittrabha.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Arittrabha Sengupta</p>
-      <p><a href="https://arittrabha-biotech.pages.dev"  target="_blank">arittrabha-biotech.pages.dev</a></p>
-      <p><a href="mailto:arittrabhasengupta@gmail.com">arittrabhasengupta@gmail.com</a></p>
+    - align: right
+        image: prof_pic.jpg
+        content: profile/about_dhruva.md
+        image_circular: false # crops the image to make it circular
+        more_info: >
+        <p><a href="mailto:me@dhruvashaw.in">me@dhruvashaw.in</a></p>
+    - align: left
+        image: at.png
+        content: profile/about_arittrabha.md
+        image_circular: false # crops the image to make it circular
+        more_info: >
+        <p><a href="mailto:arittrabhasengupta@gmail.com">arittrabhasengupta@gmail.com</a></p>
+    - align: right
+        image: jay_pic.jpg
+        content: profile/about_jaykhaple.md
+        image_circular: false # crops the image to make it circular
+        more_info: >
+        <p><a href="mailto:khaplejay00@gmail.com">khaplejay00@gmail.com</a></p>
+    - align: left
+        image: bhavya_pic.jpg
+        content: profile/about_bhavya.md
+        image_circular: false # crops the image to make it circular
+        more_info: >
+        <p><a href="mailto:choudharybhavya225@gmail.com">choudharybhavya225@gmail.com</a></p>
+    - align: right
+        image: raam_pic.jpg
+        content: profile/about_raamdheep.md
+        image_circular: false # crops the image to make it circular
+        more_info: >
+        <p><a href="mailto:raam.25227@lpu.co.in">raam.25227@lpu.co.in</a></p>
 
 bibliography: papers.bib
 

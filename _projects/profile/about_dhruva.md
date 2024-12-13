@@ -1,7 +1,3 @@
-Warm greetings from Dhruva Shaw,
+### Dhruva Shaw
 
-Myself a natural discord.py bot developer and a full stack developer using python. A Robotics Engineering undergrad student, my passion is with Electronics Automation and software projects related to the automation while using in-built AI.
-
-Writeups and researches related to my projects are open-sourced and available for all towards a positive contribution. Head over to my github for a detailed insight.
-
-<a href="https://dhruvashaw.in" target="_blank"> Portfolio </a>
+Dhruva Shaw is a passionate technologist with a strong foundation in Python programming, skilled in discord.py bot development, full-stack web development, robot system integration and automation. Currently pursuing Robotics Engineering, applying his knowledge of electronics and software to create innovative projects. He is also a recipient of pretisguious 2024 IEEE Signal Processing Society Scholarship. He is committed to open-source contributions and sharing his work on GitHub.
