@@ -141,7 +141,7 @@ The dataset captured brainwave signals corresponding to the following activities
 8. **Rest**: Recorded between each task to capture the resting state.
 
 ### 3. Feature Extraction and Classification
-Feature extraction and activity classification were performed using **transfer learning** with **YamNet** <d-cite key="gregor2015draw"></d-cite>, a deep neural network model.
+Feature extraction and activity classification were performed using **transfer learning** with **YamNet** <d-cite key="yamnetgithub"></d-cite>, a deep neural network model.
 * **Audio Representation**: Audio files were imported into **MATLAB** using an **Audio Datastore**. Mel-spectrograms, a time-frequency representation of the audio signals, were extracted using the yamnetPreprocess.
 * Dataset Split: The data was divided into **training (70%)**, **validation (20%)**, and **testing (10%)** sets.
 Transfer Learning with YamNet :
