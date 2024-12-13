@@ -119,6 +119,12 @@ This novel approach aims to deliver an intuitive, natural, and efficient solutio
 
 ---
 
+## Motivation and Journey
+### 1. SIH (Smart India Hackathon) 2023
+
+
+---
+
 ## Methodology
 ### 1. Data Collection and Dataset Overview
 The model development utilized a publicly available EEG dataset comprising data from **60 volunteers** performing **8 distinct activities**<d-cite key="asanza2023"></d-cite> . The dataset includes a total of **8,680 four-second EEG recordings**, collected using **16 dry electrodes** configured according to the **international 10-10 system**<d-cite key="asanza2023"></d-cite>.
