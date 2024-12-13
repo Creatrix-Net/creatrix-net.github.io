@@ -110,22 +110,16 @@
                   </ul>
                 {% endif %}
               {% endfor %}
-              {{ content | toc_only }}
             </nav>
           </d-contents>
         {% endif %}
         {{ content }}
-
-        {% if page.citation %}
-          {% include citation.liquid %}
-        {% endif %}
       </d-article>
 
       <d-appendix>
         <d-footnote-list></d-footnote-list>
         <d-citation-list></d-citation-list>
       </d-appendix>
-
 
       <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
 
