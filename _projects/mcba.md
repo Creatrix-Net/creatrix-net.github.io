@@ -150,7 +150,7 @@ The dataset captured brainwave signals corresponding to the following activities
 Feature extraction and activity classification were performed using **transfer learning** with **YamNet** <d-cite key="yamnet_github"></d-cite>, a deep neural network model.
 * **Audio Representation**: Audio files were imported into **MATLAB** using an **Audio Datastore** [6]. Mel-spectrograms, a time-frequency representation of the audio signals, were extracted using the yamnetPreprocess <d-cite key="yamnetpreprocess"></d-cite> function <d-cite key="transferlearning_matlab"></d-cite>.
 * Dataset Split: The data was divided into **training (70%)**, **validation (20%)**, and **testing (10%)** sets.
-Transfer Learning with YamNet <d-cite key="yamnet_github"></d-cite> <d-cite key="transferlearning_matlab"></d-cite>:
+Transfer Learning with YamNet <d-cite key="yamnet_github, transferlearning_matlab"></d-cite>:
 - The **pre-trained YamNet model** (86 layers) <d-cite key="yamnet_github"></d-cite> was adapted for an 8-class classification task:
     + The initial layers of YamNet <d-cite key="yamnet_github"></d-cite> were **frozen** to retain previously learned representations <d-cite key="transferlearning_matlab"></d-cite>.
     + A **new classification layer** was added to the model <d-cite key="transferlearning_matlab"></d-cite>.
