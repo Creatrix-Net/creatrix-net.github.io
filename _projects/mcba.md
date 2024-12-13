@@ -53,32 +53,33 @@ profiles:
       <p>Dhruva Shaw</p>
       <p><a href="mailto:dhruvashaw@ieee.org">dhruvashaw@ieee.org</a></p>
       <p><a href="mailto:me@dhruvashaw.in">me@dhruvashaw.in</a></p>
-      <p><a href="https://dhruvashaw.in" target="_blank">dhruvashaw.in</a></p>
   - align: left
     image: at.png
     content: profile/about_arittrabha.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Arittrabha Sengupta</p>
-      <p><a href="https://arittrabha-biotech.pages.dev"  target="_blank">arittrabha-biotech.pages.dev</a></p>
       <p><a href="mailto:arittrabhasengupta@gmail.com">arittrabhasengupta@gmail.com</a></p>
   - align: right
     image: jay_pic.jpg
     content: profile/about_jaykhaple.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p>Jay Baswaraj Khaple</p>
       <p><a href="mailto:khaplejay00@gmail.com">khaplejay00@gmail.com</a></p>
   - align: left
     image: bhavya_pic.jpg
     content: profile/about_bhavya.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p>Bhavya Choudhary</p>
       <p><a href="mailto:choudharybhavya225@gmail.com">choudharybhavya225@gmail.com</a></p>
   - align: right
     image: raam_pic.jpg
     content: profile/about_raamdheep.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p>Dr. Raam Dheep</p>
       <p><a href="mailto:raam.25227@lpu.co.in">raam.25227@lpu.co.in</a></p>
 
 
@@ -185,6 +186,9 @@ Here is the protocol(steps) to reproduce our work with ease.
 </div>
 
 ---
+
+## Our Team Members
+Meet the talented team members who are driving this incredible project forward!
 
 {::nomarkdown}
     {% include profiles.liquid %}
