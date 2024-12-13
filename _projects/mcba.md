@@ -108,7 +108,7 @@ _styles: >
 
 ## Abstract
 
-Advancements in bionic technology are transforming the possibilities for restoring hand function in individuals with amputations or paralysis. This paper introduces a **cost-effective bionic arm** design that leverages **mind-controlled functionality** and integrates a **sense of touch** to replicate natural hand movements. The system utilizes a **non-invasive EEG-based control mechanism**, enabling users to operate the arm using brain signals processed into PWM commands for servo motor control of the bionic arm. Additionally, the design incorporates a touch sensor (tactile feedback) in the gripper, offering sensory feedback to enhance user safety and dexterity.
+Advancements in bionic technology are transforming the possibilities for restoring hand function in individuals with amputations or paralysis. This paper introduces a **cost-effective bionic arm** design that leverages **mind-controlled functionality** and integrates a **sense of touch** to replicate natural hand movements. The system utilizes a **non-invasive EEG-based control mechanism**, enabling users to operate the arm using brain signals processed into PWM commands for servo motor control of the bionic arm. Additionally, the design incorporates a touch sensor (tactile feedback) in the gripper, offering sensory feedback to enhance user safety and dexterity<d-cite key="nprnews"></d-cite>.
 The proposed bionic arm prioritizes three essential features:
 1. **Integrated Sensory Feedback**: Providing users with a tactile experience to mimic the sense of touch (signals directly going to the brain). This capability is crucial for safe object manipulation by arm and preventing injuries
 2. **Mind-Control Potential**: Harnessing EEG signals for seamless, thought-driven operation.
@@ -119,11 +119,11 @@ This novel approach aims to deliver an intuitive, natural, and efficient solutio
 
 ## Methodology
 ### 1. Data Collection and Dataset Overview
-The model development utilized a publicly available EEG dataset comprising data from **60 volunteers** performing **8 distinct activities** . The dataset includes a total of **8,680 four-second EEG recordings**, collected using **16 dry electrodes** configured according to the **international 10-10 system**.
+The model development utilized a publicly available EEG dataset comprising data from **60 volunteers** performing **8 distinct activities**<d-cite key="asanza2023"></d-cite> . The dataset includes a total of **8,680 four-second EEG recordings**, collected using **16 dry electrodes** configured according to the **international 10-10 system**<d-cite key="asanza2023"></d-cite>.
 * Electrode Configuration: Monopolar configuration, where each electrode's potential was measured relative to neutral electrodes placed on both earlobes (ground references).
 * Signal Sampling: EEG signals were sampled at **125 Hz** and preprocessed using:
-    - **A bandpass filter (5–50 Hz)** to isolate relevant frequencies.
-    - **A notch filter (60 Hz)** to remove powerline interference.
+    - **A bandpass filter (5–50 Hz)** to isolate relevant frequencies<d-cite key="asanza2023"></d-cite>.
+    - **A notch filter (60 Hz)** to remove powerline interference<d-cite key="asanza2023"></d-cite>.
 
 ### 2. Data Preprocessing
 The dataset, originally provided in **CSV format**, underwent a comprehensive preprocessing workflow:
@@ -131,26 +131,26 @@ The dataset, originally provided in **CSV format**, underwent a comprehensive pr
 * Each individual channel's EEG data was converted into **audio signals** and saved in **.wav format**, allowing the brain signals to be audibly analyzed.
 * The entire preprocessing workflow was implemented in **Python** to ensure scalability and accuracy.
 The dataset captured brainwave signals corresponding to the following activities:
-1. **BEO** (Baseline with Eyes Open): One-time recording at the beginning of each run.
-2. **CLH** (Closing Left Hand): Five recordings per run.
-3. **CRH** (Closing Right Hand): Five recordings per run.
-4. **DLF** (Dorsal Flexion of Left Foot): Five recordings per run.
-5. **PLF** (Plantar Flexion of Left Foot): Five recordings per run.
-6. **DRF** (Dorsal Flexion of Right Foot): Five recordings per run.
-7. **PRF** (Plantar Flexion of Right Foot): Five recordings per run.
-8. **Rest**: Recorded between each task to capture the resting state.
+1. **BEO** (Baseline with Eyes Open): One-time recording at the beginning of each run<d-cite key="asanza2023"></d-cite>.
+2. **CLH** (Closing Left Hand): Five recordings per run<d-cite key="asanza2023"></d-cite>.
+3. **CRH** (Closing Right Hand): Five recordings per run<d-cite key="asanza2023"></d-cite>.
+4. **DLF** (Dorsal Flexion of Left Foot): Five recordings per run<d-cite key="asanza2023"></d-cite>.
+5. **PLF** (Plantar Flexion of Left Foot): Five recordings per run<d-cite key="asanza2023"></d-cite>.
+6. **DRF** (Dorsal Flexion of Right Foot): Five recordings per run<d-cite key="asanza2023"></d-cite>.
+7. **PRF** (Plantar Flexion of Right Foot): Five recordings per <d-cite key="asanza2023"></d-cite>.
+8. **Rest**: Recorded between each task to capture the resting <d-cite key="asanza2023, gigadb"></d-cite>.
 
 ### 3. Feature Extraction and Classification
 Feature extraction and activity classification were performed using **transfer learning** with **YamNet** <d-cite key="yamnetgithub"></d-cite>, a deep neural network model.
-* **Audio Representation**: Audio files were imported into **MATLAB** using an **Audio Datastore**. Mel-spectrograms, a time-frequency representation of the audio signals, were extracted using the yamnetPreprocess.
-* Dataset Split: The data was divided into **training (70%)**, **validation (20%)**, and **testing (10%)** sets.
+* **Audio Representation**: Audio files were imported into **MATLAB** using an **Audio Datastore**<d-cite key="audiodatastore"></d-cite>. Mel-spectrograms, a time-frequency representation of the audio signals, were extracted using the yamnetPreprocess function<d-cite key="yamnetpreprocess, transferlearningmatlab"></d-cite>.
+* Dataset Split: The data was divided into **training (70%)**, **validation (20%)**, and **testing (10%)** sets<d-cite key="transferlearningmatlab"></d-cite>.
 Transfer Learning with YamNet :
-- The **pre-trained YamNet model** (86 layers) was adapted for an 8-class classification task:
-    + The initial layers of YamNet were **frozen** to retain previously learned representations.
-    + A **new classification layer** was added to the model.
+- The **pre-trained YamNet model** (86 layers)<d-cite key="yamnetgithub"></d-cite> was adapted for an 8-class classification task:
+    + The initial layers of YamNet were **frozen** to retain previously learned representations<d-cite key="transferlearningmatlab, yamnetgithub"></d-cite>.
+    + A **new classification layer** was added to the model <d-cite key="transferlearningmatlab"></d-cite>.
 - Training details:
-    + **Learning Rate**: Initial rate of **3e-4**, with an exponential learning rate decay schedule.
-    + **Mini-Batch Size**: 128 samples per batch.
+    + **Learning Rate**: Initial rate of **3e-4**, with an exponential learning rate decay schedule<d-cite key="transferlearningmatlab"></d-cite>.
+    + **Mini-Batch Size**: 128 samples per batch<d-cite key="transferlearningmatlab"></d-cite>.
     + **Validation**: Performed every **651 iterations**.
 
 ### 4. Robotic Arm Design and Simulation
