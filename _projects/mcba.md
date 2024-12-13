@@ -141,15 +141,15 @@ The dataset captured brainwave signals corresponding to the following activities
 8. **Rest**: Recorded between each task to capture the resting state [3] [4].
 
 ### 3. Feature Extraction and Classification
-Feature extraction and activity classification were performed using **transfer learning** with **YamNet** [5], a deep neural network model.
-* **Audio Representation**: Audio files were imported into **MATLAB** using an **Audio Datastore** [6]. Mel-spectrograms, a time-frequency representation of the audio signals, were extracted using the yamnetPreprocess [7] function [8].
+Feature extraction and activity classification were performed using **transfer learning** with **YamNet** <d-cite key="yamnet_github"></d-cite>, a deep neural network model.
+* **Audio Representation**: Audio files were imported into **MATLAB** using an **Audio Datastore** [6]. Mel-spectrograms, a time-frequency representation of the audio signals, were extracted using the yamnetPreprocess <d-cite key="yamnetpreprocess"></d-cite> function <d-cite key="transferlearning_matlab"></d-cite>.
 * Dataset Split: The data was divided into **training (70%)**, **validation (20%)**, and **testing (10%)** sets.
-Transfer Learning with YamNet [5] [8]:
-- The **pre-trained YamNet model** (86 layers) was adapted for an 8-class classification task:
-    + The initial layers of YamNet [5] were **frozen** to retain previously learned representations [8].
-    + A **new classification layer** was added to the model [8].
+Transfer Learning with YamNet <d-cite key="yamnet_github"></d-cite> <d-cite key="transferlearning_matlab"></d-cite>:
+- The **pre-trained YamNet model** (86 layers) <d-cite key="yamnet_github"></d-cite> was adapted for an 8-class classification task:
+    + The initial layers of YamNet <d-cite key="yamnet_github"></d-cite> were **frozen** to retain previously learned representations <d-cite key="transferlearning_matlab"></d-cite>.
+    + A **new classification layer** was added to the model <d-cite key="transferlearning_matlab"></d-cite>.
 - Training details:
-    + **Learning Rate**: Initial rate of **3e-4**, with an exponential learning rate decay schedule [8].
+    + **Learning Rate**: Initial rate of **3e-4**, with an exponential learning rate decay schedule <d-cite key="transferlearning_matlab"></d-cite>.
     + **Mini-Batch Size**: 128 samples per batch.
     + **Validation**: Performed every **651 iterations**.
 
@@ -175,7 +175,7 @@ _Future Directions_:
 Here is the protocol(steps) to reproduce our work with ease.
 <iframe src="https://www.protocols.io/widgets/doi?uri=dx.doi.org/10.17504/protocols.io.n92ldr869g5b/v1" style="width: 100%; height: 300px; border: 1px solid transparent;"></iframe>
 <div class="container">
-    <object data='{{ "/assets/pdf/protocol_mcba.pdf" | relative_url  }}' class="responsive-iframe" type='application/pdf'/>
+    <object data='{{ "/assets/pdf/protocol_mcba.pdf" | relative_url  }}' class="responsive-iframe" type='application/pdf'></object>
 </div>
 
 ---
