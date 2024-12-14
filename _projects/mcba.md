@@ -155,7 +155,7 @@ Throughout the internal SIH 2023 hackathon, we were fortunate to have the guidan
     </div>
 </div>
 
-{% include video.liquid path="https://www.youtube.com/embed/ahVZ6MouFis" class="img-fluid rounded z-depth-1"  width=760 height=515 min-height=515 %}
+{% include video.liquid path="https://www.youtube.com/embed/ahVZ6MouFis" class="img-fluid rounded z-depth-1"  width=760 height=515px min-height=515px %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -198,7 +198,51 @@ Building upon our initial successes, we aimed to further elevate our research by
 ### 4. A Triumph at IIT Ropar: Second Place at EE Research Day
 A pivotal moment in our research journey occurred on March 16, 2024, during the EE Research Day celebrations at IIT Ropar. Our team, comprising Dhruva Shaw and Arittrabha Sengupta, participated in the poster presentation competition. To our delight, our project secured second place! We learned about this competition through our IEEE network and never anticipated such a remarkable achievement.
 
+{% include figure.liquid loading="eager" path="assets/img/mcba/iitr/5_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Dhruva Shaw & Arittrabha Sengupta with appreciation certificate in front of IIT Ropar
+</div>
 
+<br/>
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/prize_recive_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+            Receiving 2nd prize for poster presentation
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/3_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+            Dhruva Shaw with the project poster at IIT Ropar
+        </div>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/certificates_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/group_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/4_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/1_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+{% include figure.liquid loading="eager" path="assets/img/mcba/iitr/2_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Dhruva Shaw & Arittrabha Sengupta discussing the plan of action
+</div>
 
 ---
 
