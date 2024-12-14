@@ -397,6 +397,7 @@ Here is the protocol(steps) to reproduce our work with ease.
 ---
 
 ## Simulation in Simulink
+
 {% include figure.liquid loading="eager" path="assets/img/mcba/processsim.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
     Internal Data Acquisition Process Simulation
@@ -423,6 +424,11 @@ To enhance the accuracy and performance of our mind-controlled bionic arm with a
 
 This project represents a significant step towards realizing a functional mind-controlled bionic arm with a sense of touch. However, substantial research and development efforts are still required to bring this technology to market.
 
+
+---
+
+## Awards/Achievements
+* Awarded 2nd Place for outstanding poster presentation at the EE Research Day celebrations held at IIT Ropar on March 16, 2024.
 
 ---
 
