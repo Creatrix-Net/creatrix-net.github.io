@@ -178,15 +178,17 @@ This blog will chronicle our ongoing research journey, detailing the challenges 
 Our next step was to present our work to a wider audience. We had the privilege of showcasing our research through a poster presentation at the 5th International Conference on Intelligent Circuits and Systems ([ICICS 2023](https://www.lpu.in/conferences/icics/icics2023)), held at LPU, Jalandhar, on October 12th, 2023.
 
 
-        {% include figure.liquid loading="eager" path="assets/img/mcba/at_icics23.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-        <div class="caption">
-            Arittrabha Sengupta with our poster at ICICS 23
-        </div>
+{% include figure.liquid loading="eager" path="assets/img/mcba/at_icics23.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Arittrabha Sengupta with our poster at ICICS 23
+</div>
 <br/>
-        {% include figure.liquid loading="eager" path="assets/img/mcba/icics23.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
-        <div class="caption">
-            Group photo of ICICS 23
-        </div>
+{% include figure.liquid loading="eager" path="assets/img/mcba/icics23.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Group photo of ICICS 23
+</div>
+
+
 
 ---
 
