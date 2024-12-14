@@ -441,4 +441,58 @@ Meet the talented team members who are driving this incredible project forward!
 
 ---
 
-## Supporting Files
+## Supporting Files/Links
+
+{% tabs support %}
+
+{% tab support Github Respository %}
+
+* [https://github.com/Dhruvacube/Mind-Control-Bionic-Arm](https://github.com/Dhruvacube/Mind-Control-Bionic-Arm)
+
+{% endtab %}
+
+{% tab support Simulation Files %}
+
+It contains two different simulink simulation files with a data files, all are required for the simulation purpose
+
+* [https://github.com/Dhruvacube/Mind-Control-Bionic-Arm/tree/main/Simulation](https://github.com/Dhruvacube/Mind-Control-Bionic-Arm/tree/main/Simulation)
+
+{% endtab %}
+
+{% tab support Model Files (Kaggle) %}
+
+Content 2
+
+{% endtab %}
+{% tab support Dataset Files %}
+
+### Kaggle
+
+* [https://www.kaggle.com/datasets/dhruvacube/brain-activities-classification-signals/](https://www.kaggle.com/datasets/dhruvacube/brain-activities-classification-signals/)
+
+### IEEE Dataport
+
+{% endtab %}
+
+{% tab support Conferences/Presentations %}
+
+### SIH 2023
+
+* [http://dx.doi.org/10.13140/RG.2.2.36119.48806](http://dx.doi.org/10.13140/RG.2.2.36119.48806)
+
+### ICICS 2023
+* [http://dx.doi.org/10.13140/RG.2.2.11164.46724](http://dx.doi.org/10.13140/RG.2.2.11164.46724)
+
+### ISC 2023
+
+### EE Research Day IIT Ropar, 24
+* [http://dx.doi.org/10.13140/RG.2.2.19542.87361](http://dx.doi.org/10.13140/RG.2.2.19542.87361)
+
+### IEEE Telehealth Tech Pitching 2024
+* [https://www.youtube.com/watch?v=pU9OGLIYMsE](https://www.youtube.com/watch?v=pU9OGLIYMsE)
+* [http://dx.doi.org/10.13140/RG.2.2.29113.68961](http://dx.doi.org/10.13140/RG.2.2.29113.68961)
+* [http://dx.doi.org/10.13140/RG.2.2.17245.12004](http://dx.doi.org/10.13140/RG.2.2.17245.12004)
+
+{% endtab %}
+
+{% endtabs %}
