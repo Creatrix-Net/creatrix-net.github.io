@@ -155,7 +155,7 @@ Throughout the internal SIH 2023 hackathon, we were fortunate to have the guidan
     </div>
 </div>
 
-{% include video.liquid path="https://www.youtube.com/embed/ahVZ6MouFis" class="img-fluid rounded z-depth-1"  width=660 height=515 %}
+{% include video.liquid path="https://www.youtube.com/embed/ahVZ6MouFis" class="img-fluid rounded z-depth-1"  width=760 height=515 min-height=515 %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
