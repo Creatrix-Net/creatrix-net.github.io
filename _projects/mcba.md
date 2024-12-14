@@ -140,15 +140,20 @@ While we successfully navigated the internal hackathon, we unfortunately didn't 
 
 Throughout the internal SIH 2023 hackathon, we were fortunate to have the guidance of Dr. Bhaveshkumar C Dharmani, whose mentorship proved invaluable.
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/mcba/sih_project.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Project which we displayed at SIH 2023 Internal Selection
         </div>
-<br/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/mcba/sih_team.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Initial Team at SIH 2023
         </div>
+    </div>
+</div>
 
 {% include video.liquid path="https://www.youtube.com/embed/ahVZ6MouFis" class="img-fluid rounded z-depth-1"  width=760 height=515 min-height=515 %}
 
@@ -172,20 +177,16 @@ This blog will chronicle our ongoing research journey, detailing the challenges 
 ### 2. A Step Forward: Presenting at ICICS 2023
 Our next step was to present our work to a wider audience. We had the privilege of showcasing our research through a poster presentation at the 5th International Conference on Intelligent Circuits and Systems ([ICICS 2023](https://www.lpu.in/conferences/icics/icics2023)), held at LPU, Jalandhar, on October 12th, 2023.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+
         {% include figure.liquid loading="eager" path="assets/img/mcba/at_icics23.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Arittrabha Sengupta with our poster at ICICS 23
         </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
+<br/>
         {% include figure.liquid loading="eager" path="assets/img/mcba/icics23.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Group photo of ICICS 23
         </div>
-    </div>
-</div>
 
 ---
 
