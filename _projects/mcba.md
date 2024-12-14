@@ -254,6 +254,9 @@ We then set our sights on the 2024 IEEE Standards Association Telehealth Tech Pi
     <iframe width="560" height="315" class="responsive-object-pdf" src="https://www.youtube.com/embed/pU9OGLIYMsE?si=sPKLxx6YKQ6C9mzD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+### 6. Looking Forward to the Indian Engineering Congress 2024
+We are delighted to announce that our research paper has been accepted for oral presentation at the Indian Engineering Congress 2024. We are eager to present our findings at this prestigious conference and anticipate making a significant impact on the engineering community.
+
 ---
 
 ## Methodology
@@ -305,6 +308,15 @@ Transfer Learning with YamNet :
 A **3-Degree-of-Freedom (DOF) robotic arm** was designed using **MATLAB Simulink** and **Simscape toolboxes**. To ensure robust validation:
 * A **virtual environment** was developed in Simulink, simulating the interactions between the trained AI models and the robotic arm.
 * The simulations served as a testbed to evaluate the system's performance before real-world integration.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/data_acquisition.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+            The whole workflow of the project <d-cite key="essa_kotte_2021"></d-cite>
+        </div>
+    </div>
+</div>
 
 ### 5. Project Progress and Future Directions
 _Completed Tasks_:
