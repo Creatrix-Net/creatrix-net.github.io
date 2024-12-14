@@ -195,8 +195,10 @@ Building upon our initial successes, we aimed to further elevate our research by
     <iframe src='https://media.licdn.com/dms/document/media/v2/D562DAQGOF_iYu33xFw/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1733040323273?e=1735171200&v=beta&t=5olBsD8ULmzjBA8nxGY5v0j4tX6P0BbWnAiPdFWg4iE' class="responsive-object-pdf" type='application/pdf'></iframe>
 </div>
 
-### 4. EE Research day at IIT Ropar
-EE Research Day at IIT Ropar
+### 4. A Triumph at IIT Ropar: Second Place at EE Research Day
+A pivotal moment in our research journey occurred on March 16, 2024, during the EE Research Day celebrations at IIT Ropar. Our team, comprising Dhruva Shaw and Arittrabha Sengupta, participated in the poster presentation competition. To our delight, our project secured second place! We learned about this competition through our IEEE network and never anticipated such a remarkable achievement.
+
+
 
 ---
 
