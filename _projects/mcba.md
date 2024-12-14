@@ -175,7 +175,7 @@ Following the hackathon, we came under the esteemed guidance of Dr. G Raam Dheep
 This blog will chronicle our ongoing research journey, detailing the challenges we face, the successes we achieve, and the innovative solutions we develop.
 
 ### 2. A Step Forward: Presenting at ICICS 2023
-Our next step was to present our work to a wider audience. We had the privilege of showcasing our research through a poster presentation at the 5th International Conference on Intelligent Circuits and Systems (ICICS 2023), held at LPU, Jalandhar, on October 12th, 2023.
+Our next step was to present our work to a wider audience. We had the privilege of showcasing our research through a poster presentation at the 5th International Conference on Intelligent Circuits and Systems ([ICICS 2023](https://www.lpu.in/conferences/icics/icics2023)), held at LPU, Jalandhar, on October 12th, 2023.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
