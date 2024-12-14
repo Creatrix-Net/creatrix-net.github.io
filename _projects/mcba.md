@@ -174,8 +174,23 @@ Following the hackathon, we came under the esteemed guidance of Dr. G Raam Dheep
 
 This blog will chronicle our ongoing research journey, detailing the challenges we face, the successes we achieve, and the innovative solutions we develop.
 
-### 2. Our Journey: From SIH Hackathon to Independent Research
-Next Up in our Journey was
+### 2. A Step Forward: Presenting at ICICS 2023
+Our next step was to present our work to a wider audience. We had the privilege of showcasing our research through a poster presentation at the 5th International Conference on Intelligent Circuits and Systems (ICICS 2023), held at LPU, Jalandhar, on October 12th, 2023.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/at_icics23.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+            Arittrabha Sengupta with our poster at ICICS 23
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcba/icics23.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+            Group photo of ICICS 23
+        </div>
+    </div>
+</div>
 
 ---
 
