@@ -155,7 +155,9 @@ Throughout the internal SIH 2023 hackathon, we were fortunate to have the guidan
     </div>
 </div>
 
-{% include video.liquid path="https://www.youtube.com/embed/ahVZ6MouFis" class="img-fluid rounded z-depth-1"  width=760 height=515px min-height=515px %}
+<div class="containerpdf">
+    <iframe width="560" height="315" class="responsive-object-pdf" src="https://www.youtube.com/embed/ahVZ6MouFis?si=AXpMK3PYxzNr4BYV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -242,6 +244,14 @@ A pivotal moment in our research journey occurred on March 16, 2024, during the 
 {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/2_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
     Dhruva Shaw & Arittrabha Sengupta discussing the plan of action
+</div>
+
+
+### 5. Exploring Funding Opportunities: The IEEE Telehealth Tech Pitching Competition
+We then set our sights on the 2024 IEEE Standards Association Telehealth Tech Pitching Competition. This competition encourages innovative solutions that aim to improve patient engagement, streamline healthcare delivery, and enhance overall patient outcomes. We successfully submitted our project and cleared the first round of selection. While we didn't advance to the final round, we were hopeful that this competition would provide an avenue for securing funding to further advance our research.
+
+<div class="containerpdf">
+    <iframe width="560" height="315" class="responsive-object-pdf" src="https://www.youtube.com/embed/pU9OGLIYMsE?si=sPKLxx6YKQ6C9mzD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ---
