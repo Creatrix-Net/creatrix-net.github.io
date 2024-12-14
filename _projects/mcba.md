@@ -155,7 +155,7 @@ Throughout the internal SIH 2023 hackathon, we were fortunate to have the guidan
     </div>
 </div>
 
-{% include video.liquid path="https://www.youtube.com/embed/ahVZ6MouFis" class="img-fluid rounded z-depth-1"  width=560 height=315 %}
+{% include video.liquid path="https://www.youtube.com/embed/ahVZ6MouFis" class="img-fluid rounded z-depth-1"  width=660 height=515 %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -173,6 +173,9 @@ Throughout the internal SIH 2023 hackathon, we were fortunate to have the guidan
 Following the hackathon, we came under the esteemed guidance of Dr. G Raam Dheep, who has continued to mentor us throughout this exciting research journey.
 
 This blog will chronicle our ongoing research journey, detailing the challenges we face, the successes we achieve, and the innovative solutions we develop.
+
+### 2. Our Journey: From SIH Hackathon to Independent Research
+Next Up in our Journey was
 
 ---
 
