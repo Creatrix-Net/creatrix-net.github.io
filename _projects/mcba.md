@@ -178,15 +178,22 @@ This blog will chronicle our ongoing research journey, detailing the challenges 
 Our next step was to present our work to a wider audience. We had the privilege of showcasing our research through a poster presentation at the 5th International Conference on Intelligent Circuits and Systems ([ICICS 2023](https://www.lpu.in/conferences/icics/icics2023)), held at LPU, Jalandhar, on October 12th, 2023.
 
 
-        {% include figure.liquid loading="eager" path="assets/img/mcba/at_icics23.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-        <div class="caption">
-            Arittrabha Sengupta with our poster at ICICS 23
-        </div>
+{% include figure.liquid loading="eager" path="assets/img/mcba/at_icics23.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Arittrabha Sengupta with our poster at ICICS 23
+</div>
 <br/>
-        {% include figure.liquid loading="eager" path="assets/img/mcba/icics23.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
-        <div class="caption">
-            Group photo of ICICS 23
-        </div>
+{% include figure.liquid loading="eager" path="assets/img/mcba/icics23.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Group photo of ICICS 23
+</div>
+
+### 3. Selected for Oral Presentation at India Science Congress 2023
+Building upon our initial successes, we aimed to further elevate our research by presenting our work at a prestigious national platform. We were thrilled to be selected for an oral presentation at the India Science Congress 2023. Although the conference has been postponed due to unforeseen circumstances on the organizers' end, we eagerly anticipate the opportunity to share our findings with the scientific community at the rescheduled event.
+
+<div class="containerpdf">
+    <iframe src='https://media.licdn.com/dms/document/media/v2/D562DAQGOF_iYu33xFw/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1733040323273?e=1735171200&v=beta&t=5olBsD8ULmzjBA8nxGY5v0j4tX6P0BbWnAiPdFWg4iE' class="responsive-object-pdf" type='application/pdf'></iframe>
+</div>
 
 ---
 
@@ -257,7 +264,7 @@ _Future Directions_:
 Here is the protocol(steps) to reproduce our work with ease.
 <iframe src="https://www.protocols.io/widgets/doi?uri=dx.doi.org/10.17504/protocols.io.n92ldr869g5b/v1" style="width: 100%; height: 300px; border: 1px solid transparent;"></iframe>
 <div class="containerpdf">
-    <iframe src='{{ "/assets/pdf/protocol_mcba.pdf" | relative_url  }}' class="responsive-object-pdf" type='application/pdf'></iframe>
+    <iframe src='{{ site.url }}/assets/pdf/protocol_mcba.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
 </div>
 
 ---
