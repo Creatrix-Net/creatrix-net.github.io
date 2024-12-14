@@ -396,6 +396,36 @@ Here is the protocol(steps) to reproduce our work with ease.
 
 ---
 
+## Simulation in Simulink
+{% include figure.liquid loading="eager" path="assets/img/mcba/processsim.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Internal Data Acquisition Process Simulation
+</div>
+
+<br/>
+{% include figure.liquid loading="eager" path="assets/img/mcba/system_simulation.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Whole System Simulation
+</div>
+
+---
+
+## Conclusion and Future Work
+To enhance the accuracy and performance of our mind-controlled bionic arm with a sense of touch, we propose the following refinements, that we intend to do in future:
+
+**Model Refinement**:
+* **Feature Augmentation**: Incorporate additional features such as delta, theta, beta, alpha, and gamma wave components, along with signal processing metrics like SNR, bandwidth, mean frequency, occupied bandwidth, and standard deviation.
+* **Ensemble Learning**: Train a separate AI classification model on these augmented features and combine its predictions with the YamNet model using a data fusion technique, similar to sensor fusion.
+
+**Hardware Integration and User Experience**:
+* **Hardware Optimization**: Further optimize the hardware implementation to ensure reliable and efficient operation.
+* **Tactile Feedback Development**: Develop a sophisticated tactile feedback system to provide the user with a realistic sense of touch.
+
+This project represents a significant step towards realizing a functional mind-controlled bionic arm with a sense of touch. However, substantial research and development efforts are still required to bring this technology to market.
+
+
+---
+
 ## Our Team Members
 Meet the talented team members who are driving this incredible project forward!
 
