@@ -140,20 +140,15 @@ While we successfully navigated the internal hackathon, we unfortunately didn't 
 
 Throughout the internal SIH 2023 hackathon, we were fortunate to have the guidance of Dr. Bhaveshkumar C Dharmani, whose mentorship proved invaluable.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/mcba/sih_project.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Project which we displayed at SIH 2023 Internal Selection
         </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
+<br/>
         {% include figure.liquid loading="eager" path="assets/img/mcba/sih_team.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Initial Team at SIH 2023
         </div>
-    </div>
-</div>
 
 {% include video.liquid path="https://www.youtube.com/embed/ahVZ6MouFis" class="img-fluid rounded z-depth-1"  width=760 height=515 min-height=515 %}
 
