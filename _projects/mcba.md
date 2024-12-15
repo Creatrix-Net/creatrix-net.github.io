@@ -461,16 +461,22 @@ It contains two different simulink simulation files with a data files, all are r
 
 {% tab support Model Files (Kaggle) %}
 
-Content 2
+* [https://www.kaggle.com/models/dhruvacube/mindgrip](https://www.kaggle.com/models/dhruvacube/mindgrip)
 
 {% endtab %}
 {% tab support Dataset Files %}
 
-### Kaggle
+### Kaggle (Pre-processed dataset)
 
 * [https://www.kaggle.com/datasets/dhruvacube/brain-activities-classification-signals/](https://www.kaggle.com/datasets/dhruvacube/brain-activities-classification-signals/)
 
-### IEEE Dataport
+### Original Dataset
+
+#### Mendely Data
+* [https://data.mendeley.com/datasets/x8psbz3f6x/2](https://data.mendeley.com/datasets/x8psbz3f6x/2)
+
+#### GigaDb
+* [https://gigadb.org/dataset/100295](https://gigadb.org/dataset/100295)
 
 {% endtab %}
 
@@ -479,11 +485,13 @@ Content 2
 ### SIH 2023
 
 * [http://dx.doi.org/10.13140/RG.2.2.36119.48806](http://dx.doi.org/10.13140/RG.2.2.36119.48806)
+* [http://dx.doi.org/10.13140/RG.2.2.27259.02081](http://dx.doi.org/10.13140/RG.2.2.27259.02081)
 
 ### ICICS 2023
 * [http://dx.doi.org/10.13140/RG.2.2.11164.46724](http://dx.doi.org/10.13140/RG.2.2.11164.46724)
 
 ### ISC 2023
+* [Acceptance Letter at ISC 2023](https://media.licdn.com/dms/document/media/v2/D562DAQGOF_iYu33xFw/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1733040323273?e=1735171200&v=beta&t=5olBsD8ULmzjBA8nxGY5v0j4tX6P0BbWnAiPdFWg4iE)
 
 ### EE Research Day IIT Ropar, 24
 * [http://dx.doi.org/10.13140/RG.2.2.19542.87361](http://dx.doi.org/10.13140/RG.2.2.19542.87361)
