@@ -332,7 +332,7 @@ _Future Directions_:
 ---
 
 ## Protocols
-Here is the protocol(steps) to reproduce our work with ease.
+Here is the protocol(steps) to reproduce our work with ease. [Published in Protocols.io]
 <iframe src="https://www.protocols.io/widgets/doi?uri=dx.doi.org/10.17504/protocols.io.n92ldr869g5b/v1" style="width: 100%; height: 300px; border: 1px solid transparent;"></iframe>
 <div class="containerpdf">
     <iframe src='{{ site.url }}/assets/pdf/protocol_mcba.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
