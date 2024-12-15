@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-12-15 12:05:00-0000
+date: 2024-12-12 12:05:00-0000
 inline: false
 related_posts: false
 title: Introducing "MindTouch"! A Revolutionary Bionic Arm with Sense of Touch
