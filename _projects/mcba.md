@@ -480,6 +480,12 @@ It contains two different simulink simulation files with a data files, all are r
 
 {% endtab %}
 
+{% tab support Protocols %}
+
+* [https://dx.doi.org/10.17504/protocols.io.n92ldr869g5b/v1](https://dx.doi.org/10.17504/protocols.io.n92ldr869g5b/v1)
+
+{% endtab %}
+
 {% tab support Conferences/Presentations %}
 
 ### SIH 2023
