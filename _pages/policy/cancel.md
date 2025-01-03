@@ -21,7 +21,7 @@ No refunds will be provided for unused portions of the service(s), even if you c
 
 Subscribers who cancel their subscription can reactivate it at any time by subscribing again. The reactivated subscription will follow the current pricing and terms.
 
-***
+---
 
 ## Refund and Return Policy
 
