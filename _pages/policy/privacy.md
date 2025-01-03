@@ -3,7 +3,7 @@ layout: page
 title: Privacy Policy
 permalink: /policies/privacy/
 nav: false
-nav_order: 9
+nav_order: 11
 horizontal: false
 ---
 

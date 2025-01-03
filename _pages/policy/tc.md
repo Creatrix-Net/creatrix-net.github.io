@@ -3,7 +3,7 @@ layout: page
 title: Terms and Conditions
 permalink: /policies/tandc/
 nav: false
-nav_order: 11
+nav_order: 13
 horizontal: false
 ---
 

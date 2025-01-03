@@ -3,7 +3,7 @@ layout: page
 title: Cancellation, Refund and Return Policy
 permalink: /policies/cancelandrefund/
 nav: false
-nav_order: 10
+nav_order: 12
 horizontal: false
 ---
 
