@@ -2,7 +2,6 @@
 layout: page
 title: Privacy Policy
 permalink: /policies/privacy/
-description: Privacy Policy
 nav: false
 nav_order: 9
 horizontal: false
