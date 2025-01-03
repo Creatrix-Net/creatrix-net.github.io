@@ -2,26 +2,27 @@
 layout: page
 title: Contact Us
 permalink: /contact/
-description: Contact details for Creative Net.
+description: We value your feedback and are here to assist you with any questions or concerns you may have about Creative Net and our services. Please find our contact details below:
 nav: true
 nav_order: 9
 horizontal: false
+social: true
 ---
 
 ## Contact Person
-Dhruva Shaw
+
+Dhruva Shaw(Founder, Creative Net)
 
 ## Email Address
-(creativenet@dhruvashaw.in)[mailto:creativenet@dhruvashaw.in]
+
+For general inquiries, support, or feedback, reach us at: creativenet@dhruvashaw.in
 
 ## Registered Office Address
-1267, Ostad Amir Khan Sarani, Kolkata, West Bengal, India - 700082
 
+Creative Net <br/>
+1267, Ostad Amir Khan Sarani <br/>
+Kolkata, West Bengal, India - 700082
 
-<!-- Social -->
-{% if page.social %}
-    <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-    <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
-{% endif %}
+---
+
+Feel free to contact us anytime, and we’ll be happy to assist you.
