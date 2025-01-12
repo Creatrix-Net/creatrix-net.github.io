@@ -1,18 +1,5 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
-
-<!-- Bootstrap & MDB -->
-<link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
-<link
-  rel="stylesheet"
-  href="{{ site.third_party_libraries.mdb.url.css }}"
-  integrity="{{ site.third_party_libraries.mdb.integrity.css }}"
-  crossorigin="anonymous"
->
-
-<!-- Click.io -->
-<script defer data-cfasync='false' src='https://s.clickiocdn.com/t/240610_wv.js'></script>
-
 <!-- TCF stub -->
 <script type="text/javascript">
 !function(){"use strict";var t,e,o=(t=function(t){function e(t){return(e="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(t)}t.exports=function(){for(var t,o,n=[],r=window,a=r;a;){try{if(a.frames.__tcfapiLocator){t=a;break}}catch(t){}if(a===r.top)break;a=a.parent}t||(function t(){var e=r.document,o=!!r.frames.__tcfapiLocator;if(!o)if(e.body){var n=e.createElement("iframe");n.style.cssText="display:none",n.name="__tcfapiLocator",e.body.appendChild(n)}else setTimeout(t,5);return!o}(),r.__tcfapi=function(){for(var t=arguments.length,e=new Array(t),r=0;r<t;r++)e[r]=arguments[r];if(!e.length)return n;"setGdprApplies"===e[0]?e.length>3&&2===parseInt(e[1],10)&&"boolean"==typeof e[3]&&(o=e[3],"function"==typeof e[2]&&e[2]("set",!0)):"ping"===e[0]?"function"==typeof e[2]&&e[2]({gdprApplies:o,cmpLoaded:!1,cmpStatus:"stub"}):n.push(e)},r.addEventListener("message",(function(t){var o="string"==typeof t.data,n={};if(o)try{n=JSON.parse(t.data)}catch(t){}else n=t.data;var r="object"===e(n)&&null!==n?n.__tcfapiCall:null;r&&window.__tcfapi(r.command,r.version,(function(e,n){var a={__tcfapiReturn:{returnValue:e,success:n,callId:r.callId}};t&&t.source&&t.source.postMessage&&t.source.postMessage(o?JSON.stringify(a):a,"*")}),r.parameter)}),!1))}},t(e={exports:{}}),e.exports);o()}();
@@ -53,44 +40,17 @@
 
 <!-- Clickio Consent Main tag -->
 <script async type="text/javascript" src="//clickiocmp.com/t/consent_240610.js"></script>
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
+<link
+  rel="stylesheet"
+  href="{{ site.third_party_libraries.mdb.url.css }}"
+  integrity="{{ site.third_party_libraries.mdb.integrity.css }}"
+  crossorigin="anonymous"
+>
 
-<script>
-  // Define dataLayer and the gtag function.
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-
-  // Set default consent to 'denied' as a placeholder
-  // Determine actual values based on your own requirements
-  gtag('consent', 'default', {
-    'ad_storage': 'denied',
-    'ad_user_data': 'denied',
-    'ad_personalization': 'denied',
-    'analytics_storage': 'denied'
-  });
-</script>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-XXXXXX');</script>
-<!-- End Google Tag Manager -->
-
-<!-- Create one update function for each consent parameter -->
-<script>
-  function consentGrantedAdStorage() {
-    gtag('consent', 'update', {
-      'ad_storage': 'granted'
-    });
-  }
-</script>
-<!-- Invoke your consent functions when a user interacts with your banner -->
-<body>
-  ...
-  <button onclick="consentGrantedAdStorage()">Yes</button>
-  ...
-</body>
+<!-- Click.io -->
+<script defer data-cfasync='false' src='https://s.clickiocdn.com/t/240610_wv.js'></script>
 
 <!-- Bootstrap Table -->
 {% if page.pretty_table %}
