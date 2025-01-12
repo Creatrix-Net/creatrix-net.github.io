@@ -81,3 +81,7 @@ Email: [creativenet@dhruvashaw.in](mailto:creativenet@dhruvashaw.in)
 ---
 
 By using our service(s), you acknowledge that you have read, understood, and agree to this Privacy Policy.
+
+{::nomarkdown}
+<a href="#" onclick="if(window.__lxG__consent__!==undefined&amp;&amp;window.__lxG__consent__.getState()!==null){window.__lxG__consent__.showConsent()} else {alert('This function only for users from European Economic Area (EEA)')}; return false">Change privacy settings</a>
+{:/nomarkdown}
