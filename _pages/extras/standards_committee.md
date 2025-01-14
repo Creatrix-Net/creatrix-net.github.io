@@ -24,3 +24,8 @@ This standard defines a framework including requirements and evaluation methods 
 This recommended practice defines levels of capabilities of Artificial Intelligence (AI). The capability levels can be used to classify AI entities after benchmarking and evaluation. Evaluation criteria and specific benchmarks are provided for common capabilities per typical application scenarios/domains (e.g., AI used in a personal computer, in a mobile phone, or by robots).
 
 [IEEE SA WG - P3514](https://standards.ieee.org/ieee/3514/11739/)
+
+## IEEE SA WG - P62659 [Standard for Nanomanufacturing -- Large Scale Manufacturing for Nanoelectronics]
+This International Standard provides a framework for introducing nanoelectronics into large scale, high volume production in semiconductor manufacturing facilities through the incorporation of nanomaterials (e.g. carbon nanotubes, graphene, quantum dots, etc.). Since semiconductor manufacturing facilities need to incorporate practices that maintain high yields, there are very strict requirements for how manufacturing is performed. Nanomaterials represent a potential contaminant in semiconductor manufacturing facilities and need to be introduced in a structured and methodical way. This International Standard provides steps employed to facilitate the introduction of nanomaterials into the semiconductor manufacturing facilities. This sequence is described under the areas of raw materials acquisition, materials processing, design, integrated circuits (IC) fabrication, testing, and end-use. These activities represent the major stages of the supply chain in semiconductor manufacturing facilities.
+
+[IEEE SA WG - P62659](https://standards.ieee.org/ieee/62659/11082/)
