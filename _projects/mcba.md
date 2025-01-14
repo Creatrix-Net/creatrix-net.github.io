@@ -198,7 +198,7 @@ Our next step was to present our work to a wider audience. We had the privilege 
 Building upon our initial successes, we aimed to further elevate our research by presenting our work at a prestigious national platform. We were thrilled to be selected for an oral presentation at the India Science Congress 2023. Although the conference has been postponed due to unforeseen circumstances on the organizers' end, we eagerly anticipate the opportunity to share our findings with the scientific community at the rescheduled event.
 
 <div class="containerpdf">
-    <iframe src='https://media.licdn.com/dms/document/media/v2/D562DAQGOF_iYu33xFw/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1733040323273?e=1735171200&v=beta&t=5olBsD8ULmzjBA8nxGY5v0j4tX6P0BbWnAiPdFWg4iE' class="responsive-object-pdf" type='application/pdf'></iframe>
+    <iframe src='{{ site.url }}/assets/pdf/isc24_acceptanceletter.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
 </div>
 
 ### 4. A Triumph at IIT Ropar: Second Place at EE Research Day
@@ -260,9 +260,19 @@ We then set our sights on the 2024 IEEE Standards Association Telehealth Tech Pi
     <iframe width="560" height="315" class="responsive-object-pdf" src="https://www.youtube.com/embed/pU9OGLIYMsE?si=sPKLxx6YKQ6C9mzD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-### 6. Looking Forward to the Indian Engineering Congress 2024
+### 6. The 39th Indian Engineering Congress 2024
 
 We are delighted to announce that our research paper has been accepted for oral presentation at the Indian Engineering Congress 2024. We are eager to present our findings at this prestigious conference and anticipate making a significant impact on the engineering community.
+
+<div class="containerpdf">
+    <iframe src='{{ site.url }}/assets/pdf/iec_certificate.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
+</div>
+<div class="containerpdf">
+    <iframe src='{{ site.url }}/assets/pdf/bookofabstracts.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
+</div>
+<div class="containerpdf">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/T8JX1OMt7ko?si=ZoHrOgGlHeFlHTc9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ---
 
@@ -358,7 +368,7 @@ Here is the protocol(steps) to reproduce our work with ease. [Published in Proto
 
 <iframe src="https://www.protocols.io/widgets/doi?uri=dx.doi.org/10.17504/protocols.io.n92ldr869g5b/v1" style="width: 100%; height: 300px; border: 1px solid transparent;"></iframe>
 <div class="containerpdf">
-    <iframe src='{{ site.url }}/assets/pdf/protocol_mcba.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
+    <iframe src='{{ site.url }}/assets/pdf/mcba/protocol_mcba.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
 </div>
 
 ---
@@ -538,6 +548,14 @@ It contains two different simulink simulation files with a data files, all are r
 - [https://www.youtube.com/watch?v=pU9OGLIYMsE](https://www.youtube.com/watch?v=pU9OGLIYMsE)
 - [http://dx.doi.org/10.13140/RG.2.2.29113.68961](http://dx.doi.org/10.13140/RG.2.2.29113.68961)
 - [http://dx.doi.org/10.13140/RG.2.2.17245.12004](http://dx.doi.org/10.13140/RG.2.2.17245.12004)
+
+### 39th Indian Engineering Congress 2024
+
+- [https://www.youtube.com/watch?v=T8JX1OMt7ko](https://www.youtube.com/watch?v=T8JX1OMt7ko)
+- [https://www.researchgate.net/publication/387459720_Mind_Controlled_Bionic_Arm_with_Sense_of_Touch](https://www.researchgate.net/publication/387459720_Mind_Controlled_Bionic_Arm_with_Sense_of_Touch)
+- [https://www.researchgate.net/publication/387459543_Mind_Controlled_Bionic_Arm_with_Sense_of_Touch](https://www.researchgate.net/publication/387459543_Mind_Controlled_Bionic_Arm_with_Sense_of_Touch)
+- [{{ site.url }}/assets/pdf/bookofabstracts.pdf]({{ site.url }}/assets/pdf/bookofabstracts.pdf)
+- [{{ site.url }}/assets/pdf/iec_certificate.pdf]({{ site.url }}/assets/pdf/iec_certificate.pdf)
 
 {% endtab %}
 
