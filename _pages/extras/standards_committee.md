@@ -6,7 +6,7 @@ description: Standards development is a key part of the Creative Net mission. We
 nav: false
 ---
 
-Member(s) from Creative ate part of the following standards organizations and working groups:
+Member(s) from Creative Net part of the following standards organizations and working groups:
 
 ## IEEE SA WG - P3120 [Standard for Quantum Computing Architecture]
 
