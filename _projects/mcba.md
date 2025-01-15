@@ -271,7 +271,8 @@ We are delighted to announce that our research paper has been accepted for oral 
     <iframe src='{{ site.url }}/assets/pdf/mcba/bookofabstracts.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
 </div>
 <div class="containerpdf">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/T8JX1OMt7ko?si=ZoHrOgGlHeFlHTc9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" class="responsive-object-pdf" src="https://www.youtube.com/embed/T8JX1OMt7ko?si=ZoHrOgGlHeFlHTc9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 </div>
 
 ---
