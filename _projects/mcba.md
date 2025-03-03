@@ -72,13 +72,6 @@ profiles:
       <p>Jay Baswaraj Khaple</p>
       <p><a href="mailto:khaplejay00@gmail.com">khaplejay00@gmail.com</a></p>
   - align: left
-    image: mcba/bhavya_pic.jpg
-    content: profile/about_bhavya.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Bhavya Choudhary</p>
-      <p><a href="mailto:choudharybhavya225@gmail.com">choudharybhavya225@gmail.com</a></p>
-  - align: right
     image: mcba/raam_pic.jpg
     content: profile/about_raamdheep.md
     image_circular: false # crops the image to make it circular
