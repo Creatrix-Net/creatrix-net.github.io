@@ -35,10 +35,6 @@ authors:
     url: "mailto:khaplejay00@gmail.com"
     affiliations:
       name: Lovely Professional University
-  - name: Bhavya Choudhary
-    url: "mailto:choudharybhavya225@gmail.com"
-    affiliations:
-      name: Lovely Professional University
   - name: Dr. G. Raam Dheep
     url: "mailto:raam.25227@lpu.co.in"
     affiliations:
