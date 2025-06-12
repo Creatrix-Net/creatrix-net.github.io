@@ -257,7 +257,7 @@ We are delighted to announce that our research paper has been accepted for oral 
     <iframe src='{{ site.url }}/assets/pdf/mcba/iec_certificate.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
 </div>
 <div class="containerpdf">
-    <iframe src='{{ site.url }}/assets/pdf/mcba/bookofabstracts.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
+    <iframe src='https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/IEC/IEC_39.pdf?v20250320.1#page=64' class="responsive-object-pdf" type='application/pdf'></iframe>
 </div>
 <div class="containerpdf">
     <iframe width="560" height="315" class="responsive-object-pdf" src="https://www.youtube.com/embed/T8JX1OMt7ko?si=ZoHrOgGlHeFlHTc9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -544,7 +544,7 @@ It contains two different simulink simulation files with a data files, all are r
 - [https://www.youtube.com/watch?v=T8JX1OMt7ko](https://www.youtube.com/watch?v=T8JX1OMt7ko)
 - [https://www.researchgate.net/publication/387459720_Mind_Controlled_Bionic_Arm_with_Sense_of_Touch](https://www.researchgate.net/publication/387459720_Mind_Controlled_Bionic_Arm_with_Sense_of_Touch)
 - [https://www.researchgate.net/publication/387459543_Mind_Controlled_Bionic_Arm_with_Sense_of_Touch](https://www.researchgate.net/publication/387459543_Mind_Controlled_Bionic_Arm_with_Sense_of_Touch)
-- [{{ site.url }}/assets/pdf/mcba/bookofabstracts.pdf]({{ site.url }}/assets/pdf/mcba/bookofabstracts.pdf)
+- [https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/IEC/IEC_39.pdf?v20250320.1#page=64](https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/IEC/IEC_39.pdf?v20250320.1#page=64)
 - [{{ site.url }}/assets/pdf/mcba/iec_certificate.pdf]({{ site.url }}/assets/pdf/mcba/iec_certificate.pdf)
 
 {% endtab %}
