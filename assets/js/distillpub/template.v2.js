@@ -4669,7 +4669,13 @@ d-references {
       const title = el.textContent;
       const link = "#" + el.getAttribute("id");
 
-      let newLine = "<li>" + '<a href="' + link + '">' + title + "</a>" + "</li>";
+      const escapeHTML = (str) => str.replace(/[&<>"']/g, (char) => {
+        const escapeMap = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+        return escapeMap[char];
+      });
+
+      const escapedTitle = escapeHTML(title);
+      let newLine = "<li>" + '<a href="' + link + '">' + escapedTitle + "</a>" + "</li>";
       if (el.tagName == "H3") {
         newLine = "<ul>" + newLine + "</ul>";
       } else {
