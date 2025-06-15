@@ -10,6 +10,10 @@ on:
       - master
       - main
 
+permissions:
+  contents: read
+  actions: write
+
 jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
