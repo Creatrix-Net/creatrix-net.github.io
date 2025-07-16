@@ -1,5 +1,8 @@
 name: Docker Image CI (Upload Tag)
 
+permissions:
+  contents: read
+
 on:
   push:
     tags:

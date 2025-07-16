@@ -1,5 +1,9 @@
 name: Comment on pull request
 
+permissions:
+  contents: read
+  pull-requests: write
+
 on:
   repository_dispatch:
     types: [prettier-failed-on-pr]
