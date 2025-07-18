@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2025-07-04 00:00:00-0400
+date: 2025-07-04 00:00:00-0000
 inline: false
 related_posts: false
-title: One Name. One Photo. Everything Uncovered — Introducing ADVERSE
+title: Complete Overhaul - fluxpoint.py v0.2.0 Brings Structured, Async-First Design
 ---
 
 ## 🔖 fluxpoint.py v0.2.0 – Release Notes
