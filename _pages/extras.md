@@ -2,6 +2,7 @@
 layout: page
 title: Extras
 nav: true
+nav_order: -2
 dropdown: true
 children:
   - title: News
