@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cancellation, Refund and Return Policy
-permalink: /policies/cancelandrefund/
+permalink: /policies/cancellation/
 nav: false
 nav_order: 12
 horizontal: false

@@ -4,7 +4,7 @@ title: Contact Us
 permalink: /contact/
 description: We value your feedback and are here to assist you with any questions or concerns you may have about Creative Net and our services. Please find our contact details below
 nav: true
-nav_order: 10
+nav_order: 20
 horizontal: false
 social: true
 ---
@@ -15,7 +15,7 @@ Dhruva Shaw(Founder, Creative Net)
 
 ## Email Address
 
-For general inquiries, support, or feedback, reach us at: creativenet@dhruvashaw.in
+For general inquiries, support, or feedback, reach us at: hello@theccreativenet.in or creativenet@dhruvashaw.in
 
 ## Registered Office Address
 
