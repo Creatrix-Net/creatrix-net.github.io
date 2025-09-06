@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Key project kickstarter documentation.
+description: Projects Ongoing/Finished.
 nav: true
 nav_order: 3
 display_categories: [work, fun]

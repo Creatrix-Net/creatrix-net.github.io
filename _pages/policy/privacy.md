@@ -3,7 +3,6 @@ layout: page
 title: Privacy Policy
 permalink: /policies/privacy/
 nav: false
-nav_order: 11
 horizontal: false
 ---
 
@@ -76,7 +75,7 @@ We may update this Privacy Policy from time to time to reflect changes in our pr
 
 If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
 
-Email: [creativenet@dhruvashaw.in](mailto:creativenet@dhruvashaw.in)
+Email: [{{site.email}}](mailto:{{site.email}})
 
 ---
 

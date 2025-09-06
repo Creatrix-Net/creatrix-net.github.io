@@ -3,7 +3,6 @@ layout: page
 title: Terms and Conditions
 permalink: /policies/tandc/
 nav: false
-nav_order: 13
 horizontal: false
 ---
 
@@ -67,7 +66,7 @@ These Terms and Conditions shall be governed by and construed in accordance with
 
 If you have any questions or concerns regarding these Terms and Conditions, please contact us through:
 
-Email: [creativenet@dhruvashaw.in](mailto:creativenet@dhruvashaw.in)
+Email: [{{site.email}}](mailto:{{site.email}})
 
 ---
 

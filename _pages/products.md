@@ -7,10 +7,10 @@ dropdown: true
 children:
   - title: fluxpoint.py
     newtab: true
-    permalink: https://fluxpointpy.dhruvashaw.in
+    permalink: https://fluxpointpy.thecreativenet.in
   - title: divider
   - title: Minato Namikaze Bot
-    permalink: https://minatonamikaze.dhruvashaw.in
+    permalink: https://minatonamikaze.thecreativenet.in
   - title: divider
   - title: Adverse
     permalink: https://dhruvashaw.in/adverse
