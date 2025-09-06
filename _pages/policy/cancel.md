@@ -47,7 +47,7 @@ The final decision regarding refunds or returns will be made by Creative Net and
 
 If you have any questions or concerns about our Cancellation and Refund Policy, please contact us through:
 
-Email: [creativenet@dhruvashaw.in](mailto:creativenet@dhruvashaw.in)
+Email: [{{site.email}}](mailto:{{site.email}})
 
 ---
 
