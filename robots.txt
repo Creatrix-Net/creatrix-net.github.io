@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://creativenet.dhruvashaw.in/sitemap.xml
+Sitemap: https://thecreativenet.in/sitemap.xml
