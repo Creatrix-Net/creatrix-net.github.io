@@ -17,6 +17,7 @@ nav: false
   <p>{{ job.description }}</p>
   <a href="{{ job.apply_url }}" target="_blank" >Apply Now</a>
 </div>
+<hr/>
 {% endfor %}
 
 ---

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Announcing PhishNet: A Proactive AI Solution for Phishing Detection"
 date: 2025-09-06 12:52:39 +0530
 tags: [project, cybersecurity, AI, machine learning]
