@@ -3,8 +3,8 @@ layout: page
 permalink: /adverse/
 title: Adverse - Automated Open-Source Intelligence System for Digital Identity Verification and Cyber Surveillance
 description: Adverse is an advanced open-source intelligence (OSINT) and facial recognition system designed to aggregate, analyze, and verify publicly available digital information
-img: https://dhruvashaw.in/assets/img/adverse.png
-original_base_url: https://dhruvashaw.in
+img: "https://dhruvashaw.in/assets/img/adverse.png"
+original_base_url: "https://dhruvashaw.in"
 category: defence
 giscus_comments: true
 importance: 1
