@@ -97,6 +97,7 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
 - **Accuracy**: 87%
 
 **Confusion Matrix**
+
 | | **Predicted Not Phishing** | **Predicted Phishing** |
 |-:-----------------------|-:--------------------------|-:----------------------|
 | **Actual Not Phishing** | 4,787 | 533 |
@@ -113,6 +114,7 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
 - **Accuracy**: 95%
 
 **Confusion Matrix**
+
 | | **Predicted Not Phishing** | **Predicted Phishing** |
 |-:-----------------------|-:--------------------------|-:----------------------|
 | **Actual Not Phishing** | 6,363 | 286 |
