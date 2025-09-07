@@ -99,7 +99,7 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
 **Confusion Matrix**
 
 | | **Predicted Not Phishing** | **Predicted Phishing** |
-|-:-----------------------|-:--------------------------|-:----------------------|
+| ----------------------- | --------------------------  | ---------------------- |
 | **Actual Not Phishing** | 4,787 | 533 |
 | **Actual Phishing** | 677 | 3,489 |
 
