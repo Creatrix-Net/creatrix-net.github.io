@@ -7,6 +7,7 @@ nav: false
 ---
 
 {% for job in site.data.careers %}
+
 <div class="job-listing">
   <h3>{{ job.title }}</h3>
   {% if job.department %}
@@ -19,6 +20,7 @@ nav: false
 {% endfor %}
 
 ---
+
 We are always looking for talented and passionate individuals to join our team. You can fill in the talent form below, and we will get back to you if there is a suitable opportunity.
 
 <a href="https://forms.gle/Sfk2RaKhYb474yHk9" target="_blank" rel="noopener noreferrer">Talent Form</a>
