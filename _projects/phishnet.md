@@ -74,9 +74,9 @@ The system pipeline is designed for efficiency and scalability:
 * **Task Processing**: Celery workers pick up tasks from the queue to perform domain identification and AI classification.
 * **Reporting**: A separate Celery task generates zipped reports with domain details and screenshots, which are then emailed to the user.
 
-![Figure 3: Single Request Process Thread](assets/img/phishnet/request_process_thread.png)
-![Figure 4: Request Creation](assets/img/phishnet/request_creation.png)
-![Figure 5: Celery Loop Flow](assets/img/phishnet/celery_loop_flow.png)
+![Figure 3: Single Request Process Thread](/assets/img/phishnet/request_process_thread.png)
+![Figure 4: Request Creation](/assets/img/phishnet/request_creation.png)
+![Figure 5: Celery Loop Flow](/assets/img/phishnet/celery_loop_flow.png)
 
 ---
 
@@ -93,7 +93,7 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
     | **Actual Phishing** | 677 | 3,489 |
 * **Key Feature Importances**: `entropyURL` (0.184), `averageSubdomainLength` (0.137), and `entropyDomain` (0.122).
 
-![Figure 6: Confusion Matrix of Model 1](assets/img/phishnet/without_url_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png)
+![Figure 6: Confusion Matrix of Model 1](/assets/img/phishnet/without_url_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png)
 
 #### Model 2 (Raw URL + Structural Features)
 * **Accuracy**: 95%
@@ -104,7 +104,7 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
     | **Actual Phishing** | 313 | 5,098 |
 * **Key Feature Importances**: Character n-grams from the URL string, such as `s:/` (0.0196) and `tp:/` (0.0172).
 
-![Figure 7: Confusion Matrix of Model 2](assets/img/phishnet/without_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png)
+![Figure 7: Confusion Matrix of Model 2](/assets/img/phishnet/without_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png)
 
 ---
 
@@ -169,3 +169,4 @@ You'll need two separate terminals to run the application's web and background p
 **Terminal 1: Start the Web Server**
 ```bash
 pipenv run python phishnet/manage.py runserver
+```
