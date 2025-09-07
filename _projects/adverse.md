@@ -29,7 +29,7 @@ _styles: >
 ---
 
 <center>
-{% include figure.liquid loading="eager" path="{{page.img}}" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/adverse.png" class="img-fluid rounded z-depth-1" %}
 </center>
 
 # Adverse

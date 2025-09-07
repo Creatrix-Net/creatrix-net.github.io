@@ -9,7 +9,9 @@ date: 2025-09-06
 pretty_table: true
 ---
 
-![PhishNet Logo](/assets/img/phishnet/phishnet.png "PhishNet Logo")
+<center>
+{% include figure.liquid loading="eager" path="assets/img/phishnet/phishnet.png" class="img-fluid rounded z-depth-1" %}
+</center>
 
 ### Project Overview
 
@@ -74,9 +76,11 @@ The system pipeline is designed for efficiency and scalability:
 * **Task Processing**: Celery workers pick up tasks from the queue to perform domain identification and AI classification.
 * **Reporting**: A separate Celery task generates zipped reports with domain details and screenshots, which are then emailed to the user.
 
-![Figure 3: Single Request Process Thread](/assets/img/phishnet/request_process_thread.png)
-![Figure 4: Request Creation](/assets/img/phishnet/request_creation.png)
-![Figure 5: Celery Loop Flow](/assets/img/phishnet/celery_loop_flow.png)
+<center>
+{% include figure.liquid loading="eager" path="/assets/img/phishnet/request_process_thread.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="/assets/img/phishnet/request_creation.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="/assets/img/phishnet/celery_loop_flow.png" class="img-fluid rounded z-depth-1" %}
+</center>
 
 ---
 
@@ -93,7 +97,9 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
     | **Actual Phishing** | 677 | 3,489 |
 * **Key Feature Importances**: `entropyURL` (0.184), `averageSubdomainLength` (0.137), and `entropyDomain` (0.122).
 
-![Figure 6: Confusion Matrix of Model 1](/assets/img/phishnet/without_url_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png)
+<center>
+{% include figure.liquid loading="eager" path="/assets/img/phishnet/without_url_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
+</center>
 
 #### Model 2 (Raw URL + Structural Features)
 * **Accuracy**: 95%
@@ -104,7 +110,9 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
     | **Actual Phishing** | 313 | 5,098 |
 * **Key Feature Importances**: Character n-grams from the URL string, such as `s:/` (0.0196) and `tp:/` (0.0172).
 
-![Figure 7: Confusion Matrix of Model 2](/assets/img/phishnet/without_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png)
+<center>
+{% include figure.liquid loading="eager" path="/assets/img/phishnet/without_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
+</center>
 
 ---
 
@@ -116,57 +124,3 @@ Our findings show that the dual-model approach significantly enhances detection 
 * **Model Complexity**: Due to initial resource constraints, we used a Random Forest model, and we plan to explore more advanced models like **LSTMs**.
 
 Our roadmap includes plans to address these limitations by integrating the `subfinder` module for subdomain discovery and `cdx_toolkit` for historical analysis.
-
----
-
-### Getting Started
-
-Instructions on how to set up and run the solution can be found in the project's documentation.
-
-#### Prerequisites
-
-You'll need to have the following software installed on your system:
-
-* Python 3.12 or a later version.
-* PostgreSQL 17.
-* Redis.
-
-#### Setup and Configuration
-
-1.  **Install project dependencies**:
-    ```bash
-    pip install pipenv
-    pipenv install
-    ```
-2.  **Download data and models**:
-    ```bash
-    pipenv run python "Al Models/load.py" download-data
-    pipenv run python "Al Models/load.py" download-models
-    ```
-3.  **Configure the application**:
-    * Rename `phishnet/example.conf` to `phishnet/.conf`.
-    * Open `phishnet/.conf` and update the settings with your specific configurations.
-4.  **Run database migrations and load models**:
-    ```bash
-    pipenv run python phishnet/manage.py migrate
-    pipenv run python phishnet/manage.py load Models
-    ```
-5.  **Create a superuser for the admin panel**:
-    ```bash
-    pipenv run python phishnet/manage.py createsuperuser
-    ```
-6.  **Set up the cache table and static files**:
-    ```bash
-    pipenv run python phishnet/manage.py createcachetable
-    pipenv run python phishnet/manage.py generate_thumbnails
-    pipenv run python phishnet/manage.py collectstatic
-    ```
-
-#### Running the Servers
-
-You'll need two separate terminals to run the application's web and background processes.
-
-**Terminal 1: Start the Web Server**
-```bash
-pipenv run python phishnet/manage.py runserver
-```
