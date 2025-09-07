@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-07-23 21:15:00-0400
+date: 2024-07-23 21:15:00 +0530
 inline: false
 related_posts: false
 title: The Hokage [Minato Namikaze] is Returning!

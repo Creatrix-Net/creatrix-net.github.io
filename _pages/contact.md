@@ -15,7 +15,7 @@ Dhruva Shaw(Founder, Creative Net)
 
 ## Email Address
 
-For general inquiries, support, or feedback, reach us at: hello@theccreativenet.in or creativenet@dhruvashaw.in
+For general inquiries, support, or feedback, reach us at: {{site.email}} or creativenet@dhruvashaw.in
 
 ## Registered Office Address
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-07-04 00:00:00-0000
+date: 2025-07-04 00:00:00 +0530
 inline: false
 related_posts: false
 title: Complete Overhaul - fluxpoint.py v0.2.0 Brings Structured, Async-First Design

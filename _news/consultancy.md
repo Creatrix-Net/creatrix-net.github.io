@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-08-01 12:05:00-0000
+date: 2025-08-01 12:05:00 +0530
 inline: false
 related_posts: false
 title: New Launch - Robotics & Automation Consultancy

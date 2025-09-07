@@ -7,7 +7,7 @@ giscus_comments: true
 citation: true
 img: /assets/img/mcba/mcba_logo.jpeg
 date: 2024-12-12
-importance: 1
+importance: 2
 category: work
 pretty_table: true
 mermaid:
