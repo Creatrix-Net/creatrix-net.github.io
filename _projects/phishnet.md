@@ -95,11 +95,13 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
 #### Model 1 (Structural Features Only)
 
 - **Accuracy**: 87%
-- **Confusion Matrix**:
-  | | **Predicted Not Phishing** | **Predicted Phishing** |
-  | :--- | :--- | :--- |
-  | **Actual Not Phishing** | 4,787 | 533 |
-  | **Actual Phishing** | 677 | 3,489 |
+
+**Confusion Matrix**
+| | **Predicted Not Phishing** | **Predicted Phishing** |
+|-:-----------------------|-:--------------------------|-:----------------------|
+| **Actual Not Phishing** | 4,787 | 533 |
+| **Actual Phishing** | 677 | 3,489 |
+
 - **Key Feature Importances**: `entropyURL` (0.184), `averageSubdomainLength` (0.137), and `entropyDomain` (0.122).
 
 <center>
@@ -109,11 +111,13 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
 #### Model 2 (Raw URL + Structural Features)
 
 - **Accuracy**: 95%
-- **Confusion Matrix**:
-  | | **Predicted Not Phishing** | **Predicted Phishing** |
-  | :--- | :--- | :--- |
-  | **Actual Not Phishing** | 6,363 | 286 |
-  | **Actual Phishing** | 313 | 5,098 |
+
+**Confusion Matrix**
+| | **Predicted Not Phishing** | **Predicted Phishing** |
+|-:-----------------------|-:--------------------------|-:----------------------|
+| **Actual Not Phishing** | 6,363 | 286 |
+| **Actual Phishing** | 313 | 5,098 |
+
 - **Key Feature Importances**: Character n-grams from the URL string, such as `s:/` (0.0196) and `tp:/` (0.0172).
 
 <center>
