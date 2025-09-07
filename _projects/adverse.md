@@ -3,8 +3,8 @@ layout: page
 permalink: /adverse/
 title: Adverse - Automated Open-Source Intelligence System for Digital Identity Verification and Cyber Surveillance
 description: Adverse is an advanced open-source intelligence (OSINT) and facial recognition system designed to aggregate, analyze, and verify publicly available digital information
-img: "https://dhruvashaw.in/assets/img/adverse.png"
-original_base_url: "https://dhruvashaw.in"
+img: "/assets/img/adverse.png"
+original_base_url: "dhruvashaw.in"
 category: defence
 giscus_comments: true
 importance: 1
@@ -98,7 +98,7 @@ This feature set showcases the power of **Adverse** as a highly efficient **OSIN
 **Adverse** is undergoing patenting process in India, with the patent application number **202531018252**.
 
 <div class="containerpdf">
-    <iframe src='{{ page.original_base_url }}/assets/pdf/adverse_patent_status.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
+    <iframe src='https://{{ page.original_base_url }}/assets/pdf/adverse_patent_status.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
 </div>
 
 The patent for adverse been published in India Patent Journal (Issue No: 13/2025, 28/03/2025, Friday) under the title "Automated Open-Source Intelligence System for Digital Identity Verification and Cyber Surveillance" with the application number **202531018252**. _Pdf page - 1070_
