@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: page
 title: PhishNet
 description: An AI-based solution for the monitoring and detection of phishing domains and URLs.
 category: defence
@@ -98,10 +98,10 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
 
 **Confusion Matrix**
 
-| | **Predicted Not Phishing** | **Predicted Phishing** |
-| ----------------------- | --------------------------  | ---------------------- |
-| **Actual Not Phishing** | 4,787 | 533 |
-| **Actual Phishing** | 677 | 3,489 |
+|                         | **Predicted Not Phishing** | **Predicted Phishing** |
+| ----------------------- | -------------------------- | ---------------------- |
+| **Actual Not Phishing** | 4,787                      | 533                    |
+| **Actual Phishing**     | 677                        | 3,489                  |
 
 - **Key Feature Importances**: `entropyURL` (0.184), `averageSubdomainLength` (0.137), and `entropyDomain` (0.122).
 
@@ -115,10 +115,10 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
 
 **Confusion Matrix**
 
-| | **Predicted Not Phishing** | **Predicted Phishing** |
-|-:-----------------------|-:--------------------------|-:----------------------|
-| **Actual Not Phishing** | 6,363 | 286 |
-| **Actual Phishing** | 313 | 5,098 |
+|                         | **Predicted Not Phishing** | **Predicted Phishing** |
+| ----------------------: | -------------------------: | ---------------------: |
+| **Actual Not Phishing** |                      6,363 |                    286 |
+|     **Actual Phishing** |                        313 |                  5,098 |
 
 - **Key Feature Importances**: Character n-grams from the URL string, such as `s:/` (0.0196) and `tp:/` (0.0172).
 
