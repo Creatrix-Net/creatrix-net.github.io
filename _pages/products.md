@@ -9,7 +9,6 @@ display_categories: [defence, work, fun]
 horizontal: false
 ---
 
-
 <div class="projects">
 {% if site.enable_product_categories and page.display_categories %}
   <!-- Display categorized projects -->
