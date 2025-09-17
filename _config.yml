@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Building Together, Sharing Freely , सर्वेषां कृते सुलभं नवीनता |
 footer_text: >
   <a href="https://razorpay.me/@creativenet" target="_blank">Donate Us</a> | <a href="/careers/">Careers</a>.
-keywords: Dhruva Shaw, Dhruva, Shaw,Creative, Net, automation, company, developer, engineer, robotics, robotics engineer, discord, discord.py, cuber, lpu, cubing, electronics, ieee, arduino, esp32, academic-website, startup-website, robotics startup # add your own keywords or leave empty
+keywords: Dhruva Shaw, Dhruva, Shaw,Creative, Net, automation, company, developer, engineer, robotics, robotics engineer, discord, discord.py, cuber, lpu, cubing, electronics, ieee, arduino, esp32, academic-website, startup-website, robotics startup, creative net, startup, defence, adverse, phishnet, courses, india # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -149,9 +149,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+  products:
     output: true
-    permalink: /projects/:path/
+    permalink: /products/:path/
 
 announcements:
   enabled: true
@@ -385,7 +385,7 @@ enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: true # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
+enable_product_categories: true # enables categorization of products into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: true # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
