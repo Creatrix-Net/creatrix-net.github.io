@@ -51,7 +51,7 @@ We are not liable for any damages or losses resulting from the use or inability 
 
 ## 7. Donation(s)
 
-All donations received through the use of website and through the payment gateway of RazorPay is strictly governed and bound by the rules and regulations of the payment gateway. Once the donation payment is received by the gateway and gets verified by the payee bank within 03 working days, the invoice would be generated automatically and sent to your mail-id as a confirmation and acknowledgement of the receipt of the final amount post deduction of payment gateway / portal handling charges. Please note that all payment received through the DONATE-NOW button / tab remains non-refundable.
+All donations received through the use of website and through the company's designated payment gateway is strictly governed and bound by the rules and regulations of the designated payment gateway. Once the donation payment is received by the gateway and gets verified by the payee bank within 03 working days, the invoice would be generated automatically and sent to your mail-id as a confirmation and acknowledgement of the receipt of the final amount post deduction of payment gateway / portal handling charges. Please note that all payment received through the DONATE-NOW button / tab remains non-refundable.
 
 Terms & Conditions:
 

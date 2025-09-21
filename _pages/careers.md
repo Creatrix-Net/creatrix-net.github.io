@@ -9,11 +9,15 @@ nav: false
 {% for job in site.data.careers %}
 
 <div class="job-listing">
-  <h3>{{ job.title }}</h3>
-  {% if job.department %}
-    <p><strong>Department:</strong> {{ job.department }}</p>
-  {% endif %}
-  <p><strong>Location:</strong> {{ job.location }}</p>
+  <h3>{{ job.title }} {% if job.closed %}- [Closed]{% endif %}</h3>
+  <ul>
+    <li><strong>Type:</strong> {{ job.type }}</li>
+    <li><strong>Status:</strong> {% if job.closed %}Closed{% else %}Open{% endif %}</li>
+    {% if job.department %}
+      <li><strong>Department:</strong> {{ job.department }}</li>
+    {% endif %}
+    <li><strong>Location:</strong> {{ job.location }}</li>
+  </ul>
   <p>{{ job.description }}</p>
   <a href="{{ job.apply_url }}" target="_blank" >Apply Now</a>
 </div>

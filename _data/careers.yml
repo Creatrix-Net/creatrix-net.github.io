@@ -3,3 +3,5 @@
   department: "Engineering"
   description: "We are looking for Project Specialists to join our team on a contract basis."
   apply_url: "https://www.linkedin.com/jobs/view/4294591344/"
+  closed: true
+  type: "Contract"
