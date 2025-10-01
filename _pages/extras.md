@@ -17,5 +17,5 @@ children:
   - title: divider
   - title: Donate Us
     newtab: true
-    permalink: https://rzp.io/rzp/creativenet-donate
+    permalink: https://www.paypal.com/ncp/payment/KQD5A49V45C38
 ---
