@@ -29,7 +29,14 @@
       {% include newsletter.liquid %}
     {% endif %}
     <div class="container">
-      <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QhYS1c2AKJUNn4" async></script></form>
+      <div id="paypal-container-KQD5A49V45C38"></div>
+      <script>
+        paypal
+          .HostedButtons({
+            hostedButtonId: 'KQD5A49V45C38',
+          })
+          .render('#paypal-container-KQD5A49V45C38');
+      </script>
     </div>
     <div class="container">
       <a href="/policies/tandc/">Terms and Conditions</a> | <a href="/policies/privacy/">Privacy Policy</a> |
