@@ -142,5 +142,14 @@
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
     {% include scripts/jekyll_tabs.liquid %}
+    <script>
+      window.$zoho = window.$zoho || {};
+      $zoho.salesiq = $zoho.salesiq || { ready: function () {} };
+    </script>
+    <script
+      id="zsiqscript"
+      src="https://salesiq.zohopublic.in/widget?wc=siq745ca775b7f03992061edc94e7177a902ba28b15c62c0c25c160723df908b21f"
+      defer
+    ></script>
   </body>
 </html>
