@@ -83,4 +83,8 @@ By using our service(s), you acknowledge that you have read, understood, and agr
 
 {::nomarkdown}
 <a href="#" onclick="if(window.__lxG__consent__!==undefined&amp;&amp;window.__lxG__consent__.getState()!==null){window.__lxG__consent__.showConsent()} else {alert('This function only for users from European Economic Area (EEA)')}; return false">Change privacy settings</a>
+
+<style>body.clickio-cmp-in-scope .clickio-cmp-settings-display { display: inherit !important; }</style>
+
+<a class="clickio-cmp-settings-text clickio-cmp-settings-display" style="display:none;" href="#">Your Privacy Choices</a>
 {:/nomarkdown}
