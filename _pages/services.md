@@ -7,9 +7,5 @@ dropdown: true
 children:
   - title: Consultancy
     newtab: true
-    permalink: https://pages.razorpay.com/creativenet-consultancy
-  - title: divider
-  - title: Store
-    newtab: true
-    permalink: https://pages.razorpay.com/stores/creativenet-store
+    permalink: https://forms.gle/PXmTiMGf8EEjMedy9
 ---
