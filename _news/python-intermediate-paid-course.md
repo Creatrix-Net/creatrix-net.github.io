@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[[New Course Launch]🚀 Python Level Up: From Basics to Building Blocks for AI & Robotics](https://thecreativenet.in/courses/python-level-up-basics-to-intermediate/)
+[[New Course Launch!]🚀 Python Level Up: From Basics to Building Blocks for AI & Robotics](https://thecreativenet.in/courses/python-level-up-basics-to-intermediate/)
