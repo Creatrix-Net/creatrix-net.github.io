@@ -153,7 +153,7 @@ collections:
     output: true
     permalink: /products/:path/
   courses:
-    parse: false    # CRITICAL: Ensures course HTML is copied as-is (no Al-folio theme)
+    parse: false # CRITICAL: Ensures course HTML is copied as-is (no Al-folio theme)
     output: true
     permalink: /courses/:path/
 

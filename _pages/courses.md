@@ -1,18 +1,20 @@
 ---
 layout: page
 title: Courses Offered
-permalink: /courses/
+permalink: /courses-list/
+nav: true
+description: List of paid courses offered by Creative Net.
+nav_order: 7
 ---
 
-<ul class="nav nav-tabs" id="courseTabs" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" href="/courses/">Current Courses</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/courses/archive/">Archived Courses</a>
-  </li>
-</ul>
-<br>
+{% tabs Courses %}
 
-<h2>Current Course List</h2>
+{% tab Courses Current-Course-List %}
 {% include course_listing_loop.liquid archive_status="current" %}
+{% endtab %}
+
+{% tab Courses Archived-Course-List %}
+{% include course_listing_loop.liquid archive_status="archived" %}
+{% endtab %}
+
+{% endtabs %}

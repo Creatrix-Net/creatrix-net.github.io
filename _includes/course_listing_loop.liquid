@@ -16,7 +16,6 @@
       2. Skip system directories like .github.
     {% endcomment %}
     {% if file.path contains '/index.html' and file.path contains '/.github/' == false %}
-
       {% comment %}
         Determine the status based on the path.
       {% endcomment %}
@@ -29,7 +28,6 @@
         Only show the file if it matches the requested status.
       {% endcomment %}
       {% if (target_status == 'archived' and is_archived) or (target_status == 'current' and is_archived == false) %}
-
         {% assign full_path_parts = file.path | split: '/' %}
 
         {% comment %}
@@ -42,11 +40,11 @@
         <div class="course-entry">
           <h3>
             <a href="{{ file.url | relative_url }}">
-              {{ course_folder_name | replace: "-", " " | capitalize }}
+              {{ course_folder_name | replace: '-', ' ' | capitalize }}
             </a>
 
             {% if is_archived %}
-               <span class="badge badge-secondary float-right">Archived</span>
+              <span class="badge badge-secondary float-right">Archived</span>
             {% endif %}
           </h3>
           <hr>

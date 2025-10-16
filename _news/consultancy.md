@@ -15,7 +15,7 @@ Whether you're stuck on embedded systems, need help debugging, or want guidance 
 ### 📅 Book a Session
 
 - **Duration**: Up to 2 hours per booking
-- **Platform**: [Razorpay Page Link](https://rzp.io/rzp/creativenet-consultancy)
+- **Platform**: [Registration Link](https://forms.gle/PXmTiMGf8EEjMedy9)
 - **Availability**: You choose the date, but the final time will be confirmed by me.
 
 ### 💡 What I Can Help You With
