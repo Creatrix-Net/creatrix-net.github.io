@@ -67,6 +67,9 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Shallow clones should be disabled for a better experience
+          submodules: recursive  # Fetches submodules too (if any)
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:

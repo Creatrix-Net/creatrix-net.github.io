@@ -1,0 +1,57 @@
+{% comment %}
+  Lists static course files from the 'courses' collection, filtering by archive status.
+
+  Usage:
+  Current: {% include course_listing_loop.html archive_status="current" %}
+  Archived: {% include course_listing_loop.html archive_status="archived" %}
+{% endcomment %}
+
+{% assign target_status = include.archive_status %}
+{% assign course_files = site.static_files | where: 'collection', 'courses' | sort: 'path' %}
+
+<div class="course-list">
+  {% for file in course_files %}
+    {% comment %}
+      1. Check if the file is the index.html we want to link to.
+      2. Skip system directories like .github.
+    {% endcomment %}
+    {% if file.path contains '/index.html' and file.path contains '/.github/' == false %}
+
+      {% comment %}
+        Determine the status based on the path.
+      {% endcomment %}
+      {% assign is_archived = false %}
+      {% if file.path contains '/expired/' %}
+        {% assign is_archived = true %}
+      {% endif %}
+
+      {% comment %}
+        Only show the file if it matches the requested status.
+      {% endcomment %}
+      {% if (target_status == 'archived' and is_archived) or (target_status == 'current' and is_archived == false) %}
+
+        {% assign full_path_parts = file.path | split: '/' %}
+
+        {% comment %}
+          Extract the course directory name.
+          If path is: /_courses/course-A/index.html -> name is 'course-A'
+          If path is: /_courses/expired/course-Z/index.html -> name is 'course-Z'
+        {% endcomment %}
+        {% assign course_folder_name = full_path_parts | slice: -2, 1 | first %}
+
+        <div class="course-entry">
+          <h3>
+            <a href="{{ file.url | relative_url }}">
+              {{ course_folder_name | replace: "-", " " | capitalize }}
+            </a>
+
+            {% if is_archived %}
+               <span class="badge badge-secondary float-right">Archived</span>
+            {% endif %}
+          </h3>
+          <hr>
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
