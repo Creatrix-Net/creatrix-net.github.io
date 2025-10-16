@@ -152,6 +152,10 @@ collections:
   products:
     output: true
     permalink: /products/:path/
+  courses:
+    parse: false # Must be false
+    output: true # Must be true
+    permalink: /courses/:path
 
 announcements:
   enabled: true
