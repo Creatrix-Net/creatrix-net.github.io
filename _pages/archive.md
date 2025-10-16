@@ -15,4 +15,4 @@ permalink: /courses/archive/
 <br>
 
 <h2>Archived Course List</h2>
-{% include course_listing_loop.html archive_status="archived" %}
+{% include course_listing_loop.liquid archive_status="archived" %}
