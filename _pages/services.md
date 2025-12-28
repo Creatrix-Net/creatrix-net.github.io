@@ -8,4 +8,8 @@ children:
   - title: Consultancy
     newtab: true
     permalink: https://forms.gle/PXmTiMGf8EEjMedy9
+  - title: divider
+  - title: Courses
+    newtab: false
+    permalink: /courses/
 ---

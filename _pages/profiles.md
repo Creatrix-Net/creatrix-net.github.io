@@ -18,12 +18,4 @@ profiles:
       <p><a href="mailto:dhruvashaw@ieee.org">dhruvashaw@ieee.org</a></p>
       <p><a href="mailto:me@dhruvashaw.in">me@dhruvashaw.in</a></p>
       <p><a href="https://dhruvashaw.in" target="_blank">dhruvashaw.in</a></p>
-  - align: left
-    image: at.png
-    content: profile/about_arittrabha.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Arittrabha Sengupta</p>
-      <p><a href="https://arittrabha-biotech.pages.dev"  target="_blank">arittrabha-biotech.pages.dev</a></p>
-      <p><a href="mailto:arittrabhasengupta@gmail.com">arittrabhasengupta@gmail.com</a></p>
 ---

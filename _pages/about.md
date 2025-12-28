@@ -13,7 +13,24 @@ news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-
-**I, [Dhruva Shaw](https://dhruvashaw.in "Personal Portfolio"), have launched Creative नेट (Creative Net) to bring all my projects together under a single umbrella.** In the past, I've initiated various projects like [Minato Namikaze](https://minatonamikaze.dhruvashaw.in/ "Minato Namikaze Discord Bot"), [ShawDurgaPuja](https://github.com/Dhruvacube/shawdurgapuja "Github Repo of shawdurgapuja website"), and [fluxpoint.py](https://fluxpointpy.readthedocs.io/ "fluxpoint.py pakage"), but unfortunately, they eventually stalled due to the lack of a centralized organization.
-
-**Creative नेट aims to revive these exciting projects and propel them forward.** Our core focus is on generating research in robotics and automation, while also developing practical solutions (both hardware and software) to advance the field of robotics. Its registered in Udyam portal of GOI as a MSME.
+<p style="text-align: justify;">
+<b>Creative Net</b> is an indigenous, agile Deep Tech R&D entity founded by <b>Dhruva Shaw</b> to consolidate advanced engineering innovations under a centralized strategic framework.
+</p>
+<p style="text-align: justify;">
+Originally initiated to incubate experimental projects like <a href="https://minatonamikaze.thecreativenet.in" target="_blank">Minato Namikaze</a> and <a href="https://fluxpointpy.readthedocs.io/" target="_blank">fluxpoint.py</a>, Creative Net has evolved into a Udyam-registered MSME (Government of India) dedicated to solving critical problem statements for National Security and Enterprise Automation.
+</p>
+<p style="text-align: justify;">
+<b>Our Mission:</b>
+To function as a competency-based task force that bridges the gap between academic innovation and defense-grade deployment.
+</p>
+<p style="text-align: justify;">
+<b>Core Domains:</b>
+<ul>
+<li><b>Multi-Domain Intelligence:</b> Advanced OSINT, SIGINT, and GEOINT systems for Digital Identity Verification and Threat Anticipation (featuring our flagship platform, <b>Adverse</b>).</li>
+<li><b>Robotics & Unmanned Systems:</b> Hardware-software integration for autonomous operations.</li>
+<li><b>Cybersecurity:</b> Active defense mechanisms and digital surveillance.</li>
+</ul>
+</p>
+<p style="text-align: justify;">
+At Creative Net, we do not just build projects; we engineer sovereign technology solutions.
+</p>

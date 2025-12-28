@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Courses
-permalink: /courses-list/
-nav: true
+permalink: /courses/
+nav: false
 description: List of paid courses offered by Creative Net.
-nav_order: 7
 ---
 
 {% tabs Courses %}
