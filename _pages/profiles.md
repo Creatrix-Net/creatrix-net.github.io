@@ -18,4 +18,11 @@ profiles:
       <p><a href="mailto:dhruvashaw@ieee.org">dhruvashaw@ieee.org</a></p>
       <p><a href="mailto:me@dhruvashaw.in">me@dhruvashaw.in</a></p>
       <p><a href="https://dhruvashaw.in" target="_blank">dhruvashaw.in</a></p>
+  - align: left
+    image: prash.jpeg
+    content: profile/about_prashanth.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Prashanth Devarahatti</p>
+      <p><a href="mailto:prashanthdevarahatti@gmail.com">prashanthdevarahatti@gmail.com</a></p>
 ---
