@@ -1,0 +1,3 @@
+<p style="text-align: justify;">
+<b>Prashanth Devarahatti</b> is a Robotics and Cyber-Physical Systems Engineer specializing in autonomous systems and Industrial IoT. With a B.Tech in Electronics & Communication and hands-on research experience at IIT Mandi's Underwater Robotics Lab, he brings expertise in embedded systems, ROS2, and intelligent automation. Prashanth has led technical teams through hackathons and competitions while contributing to IEEE publications on machine learning applications. His passion lies in designing networked autonomous robots and creating smart technical ecosystems that advance innovation and human development.
+</p>
