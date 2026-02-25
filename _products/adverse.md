@@ -248,7 +248,7 @@ The patent for adverse been published in India Patent Journal (Issue No: 13/2025
 Adverse is capable of generating a comprehensive report based on the data it collects. This report includes detailed information about the target, including their social media profiles, images, and any other relevant data. The report is designed to be user-friendly and can be easily shared with law enforcement or other relevant parties.
 Below I have shared a demo report which does not include all the parts of the report but gives you an idea of how the report looks like.
 
-**China Intel (Demo)** [**Password Accessible**: __7453__]: [https://short.dhruvashaw.in/adverse/china](https://short.dhruvashaw.in/adverse/china)
+**China Intel (Demo)** [**Password Accessible**: __7453__]: [https://short.thecreativenet.in/adverse/china](https://short.thecreativenet.in/adverse/china)
 
 ---
 
