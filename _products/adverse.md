@@ -267,3 +267,16 @@ For licensing inquiries, contact:
 *Note: This project was developed within the timeframe of 2 weeks.*
 
 ---
+<<<<<<< HEAD
+=======
+
+<div align="center">
+
+**ADVERSE v3.0** · *Automated Open-Source Intelligence Platform*
+
+*© 2026 Dhruva Shaw / Creative नेट. All rights reserved.*
+
+`CLASSIFIED // OSINT — ADVERSE INTELLIGENCE PLATFORM`
+
+</div>
+>>>>>>> bb05af3c1b7165337377b3c1a8bef379c2c2eabb
