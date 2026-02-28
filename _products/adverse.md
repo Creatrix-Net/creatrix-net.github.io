@@ -248,7 +248,33 @@ The patent for adverse been published in India Patent Journal (Issue No: 13/2025
 Adverse is capable of generating a comprehensive report based on the data it collects. This report includes detailed information about the target, including their social media profiles, images, and any other relevant data. The report is designed to be user-friendly and can be easily shared with law enforcement or other relevant parties.
 Below I have shared a demo report which does not include all the parts of the report but gives you an idea of how the report looks like.
 
-**China Intel (Demo)** [**Password Accessible**: __7453__]: [https://short.thecreativenet.in/adverse/china](https://short.thecreativenet.in/adverse/china)
+**China Intel (Demo)** [**Password Accessible**: __7453__]: [https://short.thecreativenet.in/adverse/china](https://workdrive.zohoexternal.in/external/a226211798920bb7b3deaeab4f75c09d167a3ef513b2192da442286182fb37b4)
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adverse/china_intel_brief.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adverse/china_intel_capabilities.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+**Mazood Azhar Intel (Demo)** [**Password Accessible**: To be to shared to approved individuals]: [https://short.thecreativenet.in/adverse/azhar](https://workdrive.zohoexternal.in/external/a7ef9680c9396972d546f62f7361d7e544934ba9a267d210ddf04a2994518e35)
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adverse/masood_azhar_executive_summary.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adverse/masood_azhar_final_report.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adverse/masood_azhar_social_search.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adverse/masood_azhar_sentiment_keywords.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 ---
 
@@ -267,16 +293,3 @@ For licensing inquiries, contact:
 *Note: This project was developed within the timeframe of 2 weeks.*
 
 ---
-<<<<<<< HEAD
-=======
-
-<div align="center">
-
-**ADVERSE v3.0** · *Automated Open-Source Intelligence Platform*
-
-*© 2026 Dhruva Shaw / Creative नेट. All rights reserved.*
-
-`CLASSIFIED // OSINT — ADVERSE INTELLIGENCE PLATFORM`
-
-</div>
->>>>>>> bb05af3c1b7165337377b3c1a8bef379c2c2eabb
