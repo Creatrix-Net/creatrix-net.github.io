@@ -32,12 +32,13 @@ _styles: >
 {% include figure.liquid loading="eager" path="assets/products/adverse.png" class="img-fluid rounded z-depth-1" %}
 </center>
 
-# ADVERSE — *Automated Open-Source Intelligence System*
-### *for Digital Identity Verification and Cyber Surveillance* ©
+# ADVERSE — _Automated Open-Source Intelligence System_
+
+### _for Digital Identity Verification and Cyber Surveillance_ ©
 
 > **CLASSIFIED // OSINT — ADVERSE INTELLIGENCE PLATFORM v3.0**
 
-**Adverse** is a state-of-the-art intelligence software designed for **advanced surveillance and open-source intelligence (OSINT) gathering**. Inspired by Netflix series *The Night Agent*, it empowers intelligence professionals to **track digital footprints across social media platforms**, **scan publicly available internet data**, and **access open CCTV networks in over 80 countries** using just a **name and image**.
+**Adverse** is a state-of-the-art intelligence software designed for **advanced surveillance and open-source intelligence (OSINT) gathering**. Inspired by Netflix series _The Night Agent_, it empowers intelligence professionals to **track digital footprints across social media platforms**, **scan publicly available internet data**, and **access open CCTV networks in over 80 countries** using just a **name and image**.
 
 A key highlight of **Adverse** is its **powerful face comparison technology**, which enables users to **analyze and match faces from downloaded images** with high accuracy — an invaluable tool for **law enforcement, cybersecurity experts, and intelligence agencies** involved in **criminal investigations, missing person searches, and security threat assessments**.
 
@@ -45,59 +46,67 @@ A key highlight of **Adverse** is its **powerful face comparison technology**, w
 
 ## ⚡ What Can Adverse Do?
 
-| Capability | Details |
-|---|---|
-| 🌐 **Multi-Engine OSINT** | Bing, Google, DuckDuckGo, Yahoo, Startpage, Dogpile, Ask, Brave, Mojeek |
-| 🎯 **Target Profiling** | Auto-classifies any input → dispatches relevant OSINT modules |
-| 🖼️ **Face Matching** | Threshold-based comparison (0–100%) across downloaded images |
-| 📡 **CAMINT** | Public CCTV feeds from 80+ countries via Insecam, dorks, Shodan |
-| 📋 **PDF Intelligence Briefs** | Auto-generated, classification-stamped, AI-summarized reports |
-| 🌍 **13-Domain Country Intel** | Full national threat assessment from ORBAT to Sanctions |
-| 📞 **Phone OSINT** | Carrier, WhatsApp/Telegram, breach check, reverse lookup |
-| 🖥️ **Web GUI Dashboard** | Military-grade dark-themed browser interface |
-| 🤖 **Local AI Summaries** | Offline extractive NLP — no API, no GPU required |
+| Capability                     | Details                                                                 |
+| ------------------------------ | ----------------------------------------------------------------------- |
+| 🌐 **Multi-Engine OSINT**      | Bing, Google, DuckDuckGo, Yahoo, Startpage, Dogpile, Ask, Brave, Mojeek |
+| 🎯 **Target Profiling**        | Auto-classifies any input → dispatches relevant OSINT modules           |
+| 🖼️ **Face Matching**           | Threshold-based comparison (0–100%) across downloaded images            |
+| 📡 **CAMINT**                  | Public CCTV feeds from 80+ countries via Insecam, dorks, Shodan         |
+| 📋 **PDF Intelligence Briefs** | Auto-generated, classification-stamped, AI-summarized reports           |
+| 🌍 **13-Domain Country Intel** | Full national threat assessment from ORBAT to Sanctions                 |
+| 📞 **Phone OSINT**             | Carrier, WhatsApp/Telegram, breach check, reverse lookup                |
+| 🖥️ **Web GUI Dashboard**       | Military-grade dark-themed browser interface                            |
+| 🤖 **Local AI Summaries**      | Offline extractive NLP — no API, no GPU required                        |
 
 ---
 
 ## 🔑 Key Features
 
 ### 1. Open-Source Intelligence (OSINT) Gathering
+
 - Perform **deep web searches** using Bing, Google, and advanced dorking techniques
 - Results deduplicated by URL across **8 parallel search engines**
 - Extract valuable data from publicly available sources
 
 ### 2. Social Media Tracking
+
 - Search for social media profiles using just a **name or username**
 - Enhance searches with **username variations** and custom username lists
 - Conduct **silent searches** to avoid cluttering console output
 
 ### 3. Image-Based Search & Face Matching
+
 - Use **face-only detection** to filter non-human elements from image searches
 - Compare faces with a **threshold-based algorithm (0–100%)** to verify identities
 - **4 parallel workers** with 10-second per-image timeout for speed
 - Works from a single reference photo
 
 ### 4. Open CCTV & Insecam Surveillance (CAMINT)
+
 - Access **open CCTV cameras from 80+ countries**
 - Search for available **live camera feeds** by country code
 - Discover exposed cameras via **search dorks**, manufacturer panel detection (Hikvision, Dahua, Axis), public directories (Opentopia, EarthCam, WebcamTaxi), **RTSP stream references**, and Shodan/Censys census data
 
 ### 5. Subdomain Enumeration
+
 - Detect **hidden subdomains** to uncover additional attack surface
 - Choose between **passive (stealthy)** and **active (direct probing)** methods
 - Powered by [subfinder](https://github.com/projectdiscovery/subfinder)
 
 ### 6. Automated & Customizable Searches
+
 - Set **face recognition accuracy thresholds**
 - Limit search depth (pages, image count)
 - Disable specific engines (e.g., skip Google)
 - Use **multiple parallel workers** for faster results
 
 ### 7. Random Username & Query Generation
+
 - Generate **random usernames** to test for possible profiles
 - Add **custom username lists** for broader coverage
 
 ### 8. No-Confirmation Mode
+
 - Execute searches **without confirmation prompts** — ideal for automation pipelines
 
 ---
@@ -106,21 +115,21 @@ A key highlight of **Adverse** is its **powerful face comparison technology**, w
 
 Run comprehensive OSINT on any **country, region, or threat actor** with a single command:
 
-| Domain | Module | Description |
-|--------|--------|-------------|
-| 🏛️ Area Intelligence | `area_intel.py` | Military bases, nuclear facilities, defense industry |
-| ⚔️ ORBAT | `orbat.py` | Order of Battle — army, navy, air force, special forces |
-| 🗺️ GEOINT | `geoint.py` | Facility mapping via OpenStreetMap |
-| 💻 Cyber Intel | `cyber_intel.py` | ASN info, APT groups, government domains |
-| 📡 SIGINT | `sigint_recon.py` | Radar, EW, satellite, comms infrastructure |
-| 📰 Regional Sentiment | `regional_sentiment.py` | News sentiment, risk indicators, narratives |
-| 🚀 Weapons Database | `weapons_db.py` | 17 categories of weapons systems |
-| 🚫 Sanctions | `sanctions_watchlist.py` | UN, OFAC, EU sanctions & arms embargoes |
-| 💰 Economic Intel | `economic_intel.py` | GDP, military spending, arms trade, resources |
-| 🕵️ HUMINT Leads | `humint_leads.py` | Key personnel, org charts, defense officials |
-| 📂 Leaked Docs | `leaked_docs.py` | WikiLeaks, declassified, FOIA, think tanks |
-| 📷 CAMINT | `leaked_cameras.py` | Public security cams (Insecam, RTSP, dorks, Shodan) |
-| 🔮 Predictive Intel | `predictive_intel.py` | Geopolitical tension index & Polymarket forecasting |
+| Domain                | Module                   | Description                                             |
+| --------------------- | ------------------------ | ------------------------------------------------------- |
+| 🏛️ Area Intelligence  | `area_intel.py`          | Military bases, nuclear facilities, defense industry    |
+| ⚔️ ORBAT              | `orbat.py`               | Order of Battle — army, navy, air force, special forces |
+| 🗺️ GEOINT             | `geoint.py`              | Facility mapping via OpenStreetMap                      |
+| 💻 Cyber Intel        | `cyber_intel.py`         | ASN info, APT groups, government domains                |
+| 📡 SIGINT             | `sigint_recon.py`        | Radar, EW, satellite, comms infrastructure              |
+| 📰 Regional Sentiment | `regional_sentiment.py`  | News sentiment, risk indicators, narratives             |
+| 🚀 Weapons Database   | `weapons_db.py`          | 17 categories of weapons systems                        |
+| 🚫 Sanctions          | `sanctions_watchlist.py` | UN, OFAC, EU sanctions & arms embargoes                 |
+| 💰 Economic Intel     | `economic_intel.py`      | GDP, military spending, arms trade, resources           |
+| 🕵️ HUMINT Leads       | `humint_leads.py`        | Key personnel, org charts, defense officials            |
+| 📂 Leaked Docs        | `leaked_docs.py`         | WikiLeaks, declassified, FOIA, think tanks              |
+| 📷 CAMINT             | `leaked_cameras.py`      | Public security cams (Insecam, RTSP, dorks, Shodan)     |
+| 🔮 Predictive Intel   | `predictive_intel.py`    | Geopolitical tension index & Polymarket forecasting     |
 
 ---
 
@@ -128,21 +137,21 @@ Run comprehensive OSINT on any **country, region, or threat actor** with a singl
 
 The profiler **auto-classifies** any input and dispatches the right OSINT modules automatically:
 
-| Input Type | Example | Modules Activated |
-|---|---|---|
-| Twitter/X | `@elonmusk` | Twitter OSINT, cross-platform search |
-| Instagram | `instagram.com/username` | Instagram OSINT, image search |
-| LinkedIn | `linkedin.com/in/username` | LinkedIn OSINT, person search |
-| Reddit | `reddit.com/u/username` | Reddit OSINT, post history |
-| GitHub | `github.com/username` | Repo search, developer OSINT |
-| Email | `user@example.com` | Breach check, WHOIS, social search |
-| Phone | `+91 9876543210` | Carrier, reverse lookup, WhatsApp/Telegram |
-| Domain/URL | `example.com` | WHOIS, subdomain enum, IP lookup |
-| IP Address | `1.2.3.4` | GeoIP, reverse DNS, ASN lookup |
-| Person Name | `John Doe` | Multi-platform search, image search |
-| Username | `johndoe` | Cross-platform social search |
-| TikTok | `tiktok.com/@username` | Social search, video mentions |
-| Mastodon | `@user@instance.social` | Fediverse search |
+| Input Type  | Example                    | Modules Activated                          |
+| ----------- | -------------------------- | ------------------------------------------ |
+| Twitter/X   | `@elonmusk`                | Twitter OSINT, cross-platform search       |
+| Instagram   | `instagram.com/username`   | Instagram OSINT, image search              |
+| LinkedIn    | `linkedin.com/in/username` | LinkedIn OSINT, person search              |
+| Reddit      | `reddit.com/u/username`    | Reddit OSINT, post history                 |
+| GitHub      | `github.com/username`      | Repo search, developer OSINT               |
+| Email       | `user@example.com`         | Breach check, WHOIS, social search         |
+| Phone       | `+91 9876543210`           | Carrier, reverse lookup, WhatsApp/Telegram |
+| Domain/URL  | `example.com`              | WHOIS, subdomain enum, IP lookup           |
+| IP Address  | `1.2.3.4`                  | GeoIP, reverse DNS, ASN lookup             |
+| Person Name | `John Doe`                 | Multi-platform search, image search        |
+| Username    | `johndoe`                  | Cross-platform social search               |
+| TikTok      | `tiktok.com/@username`     | Social search, video mentions              |
+| Mastodon    | `@user@instance.social`    | Fediverse search                           |
 
 ---
 
@@ -160,15 +169,15 @@ Every `intel` and `target` command auto-generates a **professional PDF report** 
 
 ### Classification Levels Supported
 
-| Level | Marking |
-|---|---|
-| ✅ Default | `UNCLASSIFIED // OSINT` |
-| 🔵 | `UNCLASSIFIED // FOUO` |
-| 🟡 | `CONFIDENTIAL` |
-| 🟠 | `SECRET` |
-| 🔴 | `TOP SECRET` |
-| 🔴🔴 | `TOP SECRET // SCI` |
-| 🔴🔴🔴 | `TOP SECRET // SCI // NOFORN` |
+| Level      | Marking                       |
+| ---------- | ----------------------------- |
+| ✅ Default | `UNCLASSIFIED // OSINT`       |
+| 🔵         | `UNCLASSIFIED // FOUO`        |
+| 🟡         | `CONFIDENTIAL`                |
+| 🟠         | `SECRET`                      |
+| 🔴         | `TOP SECRET`                  |
+| 🔴🔴       | `TOP SECRET // SCI`           |
+| 🔴🔴🔴     | `TOP SECRET // SCI // NOFORN` |
 
 ---
 
@@ -188,6 +197,7 @@ Every section of the PDF report includes an **AI-generated summary** using extra
 
 Military-grade dark-themed browser interface for all capabilities:
 **Features:**
+
 - 📡 Intel Collection form with all 13 domain modules
 - 🎯 Target Profiling with face image upload
 - 📊 Live progress tracking (phase-by-phase)
@@ -201,21 +211,22 @@ Military-grade dark-themed browser interface for all capabilities:
 
 ### Multi-Engine Search Coverage
 
-| Context | Engines |
-|---|---|
+| Context                     | Engines                                                         |
+| --------------------------- | --------------------------------------------------------------- |
 | Area intelligence (`intel`) | Bing, DuckDuckGo, Yahoo, Startpage, Dogpile, Ask, Brave, Mojeek |
-| Dorking | Bing **+** all above in parallel |
-| General target search | Bing + Google |
-| Reports | Up to **100 results/engine**, **200 top results** overall |
+| Dorking                     | Bing **+** all above in parallel                                |
+| General target search       | Bing + Google                                                   |
+| Reports                     | Up to **100 results/engine**, **200 top results** overall       |
 
 ### Parallel Face Comparison
 
-| Metric | Before | After |
-|---|---|---|
-| Workers | 1 (serial) | 4 (parallel) |
-| Per-image timeout | none | 10 seconds |
+| Metric            | Before     | After        |
+| ----------------- | ---------- | ------------ |
+| Workers           | 1 (serial) | 4 (parallel) |
+| Per-image timeout | none       | 10 seconds   |
 
 ### Smart Timeouts
+
 - WHOIS lookups enforce a **5-second socket timeout** per domain
 - Unresolvable domain guesses skip subdomain enumeration automatically
 - Cuts worst-case runtime from **minutes → seconds**
@@ -227,9 +238,8 @@ Military-grade dark-themed browser interface for all capabilities:
 **Adverse** is undergoing patenting process in India.
 
 > **Patent Application No: 202531018252**
-> Published in *India Patent Journal* (Issue No: 13/2025, 28/03/2025) under the title
-> *"Automated Open-Source Intelligence System for Digital Identity Verification and Cyber Surveillance"*
-
+> Published in _India Patent Journal_ (Issue No: 13/2025, 28/03/2025) under the title
+> _"Automated Open-Source Intelligence System for Digital Identity Verification and Cyber Surveillance"_
 
 <div class="containerpdf">
     <iframe src='https://bucket.{{ page.original_base_url }}/assets/pdf/adverse_patent_status.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
@@ -280,16 +290,17 @@ Below I have shared a demo report which does not include all the parts of the re
 
 ## 📜 Usage & Licensing
 
-> *This software is exclusively offered for licensing to the **Ministry of Defence, Government of India** and allied departments & Ministries of Government of India.*
+> _This software is exclusively offered for licensing to the **Ministry of Defence, Government of India** and allied departments & Ministries of Government of India._
 >
 > If you are from any other country or organization, this software is not available for sale or distribution.
 
 For licensing inquiries, contact:
+
 - 📧 **me@dhruvashaw.in**
 - 📧 **hello@thecreativenet.in**
 
 ---
 
-*Note: This project was developed within the timeframe of 2 weeks.*
+_Note: This project was developed within the timeframe of 2 weeks._
 
 ---

@@ -13,6 +13,7 @@ news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
 <p style="text-align: justify;">
 <b>Creative Net</b> is an indigenous, agile Deep Tech R&D entity founded by <b>Dhruva Shaw</b> to consolidate advanced engineering innovations under a centralized strategic framework.
 </p>

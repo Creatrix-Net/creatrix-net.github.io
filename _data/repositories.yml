@@ -1,12 +1,14 @@
 github_users:
-  - Dhruvacube
-  - arittrabha
+  - torvalds
+  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - Creatrix-Net/Mind-Control-Bionic-Arm
-  - Creatrix-Net/yondaime-hokage
-  - Creatrix-Net/fluxpoint.py
-  - Creatrix-Net/Micromouse
-  - Creatrix-Net/bot-invites-logger
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons

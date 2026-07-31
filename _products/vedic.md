@@ -25,7 +25,7 @@ $$
 a_c = N \cdot V_c \cdot \dot{\lambda}
 $$
 
-where $N$ is the navigation constant, $V_c$ is closing velocity, and $\dot{\lambda}$ is the line-of-sight rotation rate. PNG works beautifully — as long as the interceptor has a large speed and acceleration margin over the target, typically cited around 3:1. That assumption collapses the moment you're chasing a target multirotor with roughly the *same* thrust-to-weight ratio as your interceptor.
+where $N$ is the navigation constant, $V_c$ is closing velocity, and $\dot{\lambda}$ is the line-of-sight rotation rate. PNG works beautifully — as long as the interceptor has a large speed and acceleration margin over the target, typically cited around 3:1. That assumption collapses the moment you're chasing a target multirotor with roughly the _same_ thrust-to-weight ratio as your interceptor.
 
 The naive alternative, pure pursuit (always steer straight at the target), fails in the opposite way: it degenerates into an endless tail chase. If the target weaves or turns sharply, a pure-pursuit interceptor can never close the last few meters.
 
@@ -111,12 +111,12 @@ The whole architecture was implemented twice inside MATLAB/Simulink as a cross-c
 A Monte Carlo batch simulator ($\Delta t = 0.05$ s, 90 s engagement envelope, 10 m kill radius) ran the interceptor against five evasion profiles:
 
 | Target Pattern | Time-to-Kill (s) | Min Range (m) | Peak $E_r$ | Status |
-|---|---|---|---|---|
-| Figure-8 | 16.4 | 0.06 | 0.82 | HIT |
-| Circle | 14.0 | 0.04 | 0.81 | HIT |
-| Random | 29.0 | 0.09 | 0.75 | HIT |
-| Straight Dash | 29.1 | 0.03 | 0.95 | HIT |
-| Evasive (Sine) | 15.4 | 0.18 | 0.88 | HIT |
+| -------------- | ---------------- | ------------- | ---------- | ------ |
+| Figure-8       | 16.4             | 0.06          | 0.82       | HIT    |
+| Circle         | 14.0             | 0.04          | 0.81       | HIT    |
+| Random         | 29.0             | 0.09          | 0.75       | HIT    |
+| Straight Dash  | 29.1             | 0.03          | 0.95       | HIT    |
+| Evasive (Sine) | 15.4             | 0.18          | 0.88       | HIT    |
 
 100% intercept rate, sub-0.2 m miss distance across every profile — close enough that a proximity warhead becomes optional rather than necessary. The straight-dash case took the longest simply because closing velocity was minimized; VEDIC correctly recognized no lateral maneuvering was needed and settled into a tail chase. The sine-weave case had the highest miss distance, but Corridor Denial kept the interceptor from overshooting the way a classic PNG law would.
 
@@ -133,6 +133,7 @@ A few honest limitations, since a proof-of-concept is only useful if you're clea
 Follow-on work is aimed at Extended Kalman Filtering for vision-based state estimation and Hardware-in-the-Loop testing ahead of live flight trials on PX4.
 
 ## GITHUB
+
 **[Dhruvacube/vedic](https://github.com/Dhruvacube/vedic)**
 
 ---

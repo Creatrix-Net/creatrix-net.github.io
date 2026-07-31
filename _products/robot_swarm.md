@@ -14,7 +14,7 @@ toc:
 
 _**Here I means Dhruva Shaw, the author of this post at Creative Net.**_
 
-Most robotic swarms you'll read about still lean on a classic master-slave setup: one robot is "in charge," the rest follow. It's simple, it's easy to reason about, and it breaks the moment that one robot loses power, drifts out of radio range, or just has a bad sensor day. In my paper **"Robotic Swarm With Independent Selection Of Master-Slave Configurations,"** presented at IEEE SPACE, I set out to fix that — not by abandoning the master-slave idea, but by making the *choice* of master something the swarm figures out for itself, continuously, without any central authority.
+Most robotic swarms you'll read about still lean on a classic master-slave setup: one robot is "in charge," the rest follow. It's simple, it's easy to reason about, and it breaks the moment that one robot loses power, drifts out of radio range, or just has a bad sensor day. In my paper **"Robotic Swarm With Independent Selection Of Master-Slave Configurations,"** presented at IEEE SPACE, I set out to fix that — not by abandoning the master-slave idea, but by making the _choice_ of master something the swarm figures out for itself, continuously, without any central authority.
 
 Here's the short version of what the paper does and why.
 
