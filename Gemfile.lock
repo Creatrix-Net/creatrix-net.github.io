@@ -9,8 +9,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (8.0.4.1)
-    activesupport (7.2.3.1)
+    activesupport (7.2.3.2)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -22,12 +21,6 @@ GEM
       minitest (>= 5.1, < 6)
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
-      uri (>= 0.13.1)
-    addressable (2.8.7)
-      public_suffix (>= 2.0.2, < 7.0)
-    base64 (0.3.0)
-    benchmark (0.5.0)
-    bibtex-ruby (6.1.0)
     addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
     al_analytics (1.0.2)
@@ -104,14 +97,19 @@ GEM
       fast-stemmer (~> 1.0)
       matrix (~> 0.4)
     colorator (1.1.0)
-    concurrent-ruby (1.3.6)
+    concurrent-ruby (1.3.7)
     connection_pool (3.0.2)
     crass (1.0.6)
-    csl (1.6.0)
-      namae (~> 1.0)
-      rexml
-    csl-styles (1.0.1.11)
-      csl (~> 1.0)
+    csl (2.2.1)
+      forwardable (~> 1.3)
+      namae (~> 1.2)
+      open-uri (< 1.0)
+      rexml (~> 3.0)
+      set (~> 1.1)
+      singleton (< 1.0)
+      time (< 1.0)
+    csl-styles (2.0.2)
+      csl (~> 2.0)
     css_parser (1.21.0)
       addressable
     cssminify2 (2.1.0)
@@ -243,7 +241,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.19.9)
+    json (2.21.2)
     json-minify (0.0.3)
       json (> 0)
     kramdown (2.5.2)
@@ -257,16 +255,12 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
-    loofah (2.24.0)
-    logger (1.7.0)
     loofah (2.25.2)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     matrix (0.4.3)
     mercenary (0.4.0)
     mini_mime (1.1.5)
-    minitest (5.27.0)
-    multi_xml (0.8.0)
     minitest (5.27.0)
     multi_xml (0.9.1)
       bigdecimal (>= 3.1, < 5)
@@ -336,8 +330,6 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
     uri (1.1.1)
-    webrick (1.9.1)
-    uri (1.1.1)
     webrick (1.9.2)
 
 PLATFORMS
@@ -396,7 +388,7 @@ DEPENDENCIES
   ostruct
 
 CHECKSUMS
-  activesupport (7.2.3.1) sha256=11ebed516a43a0bb47346227a35ebae4d9427465a7c9eb197a03d5c8d283cb34
+  activesupport (7.2.3.2) sha256=ddc90d11dd88086d78ace03407fe3c2a3f5c8853c3c3046313db5ed823ef3312
   addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
   al_analytics (1.0.2) sha256=0c8e0c029b1a28401d21ed9b56033036697e61722a0d8867f33c30010ad738d6
   al_charts (1.0.1) sha256=ce26374c2b1159ae0d65dc7999730be700a9ee486002ae14cb480eef70580885
@@ -424,10 +416,10 @@ CHECKSUMS
   colorator (1.1.0) sha256=e2f85daf57af47d740db2a32191d1bdfb0f6503a0dfbc8327d0c9154d5ddfc38
   concurrent-ruby (1.3.7) sha256=4412caec3a5ea2e5fdc52076724c071a81f2c0593d83b2ac8cbb8ca63b3151b0
   connection_pool (3.0.2) sha256=33fff5ba71a12d2aa26cb72b1db8bba2a1a01823559fb01d29eb74c286e62e0a
-  crass (1.0.7) sha256=94868719948664c89ddcaf0a37c65048413dfcb1c869470a5f7a7ceb5390b295
+  crass (1.0.6) sha256=dc516022a56e7b3b156099abc81b6d2b08ea1ed12676ac7a5657617f012bd45d
   csl (2.2.1) sha256=624352f1f6f51f1e0b155bd2501ce423f03264495ec259e65c26e00872a195a2
   csl-styles (2.0.2) sha256=a48007d8a60307825de140dc2adaacc0b7186f2d1042f7e839eb47fce051de98
-  css_parser (1.22.0) sha256=f274988a40c6178305530d60e7deb5162f7b5538b701b61b5488fc703e5b40c1
+  css_parser (1.21.0) sha256=6753f5b8b49dd6d5c6a90f300d5a82af8399c19dbba56d886081740ec7014518
   cssminify2 (2.1.0) sha256=406a0b95fdaab60132c6f1fbb47b4a30f9572d2ef523f806fb94a530d78c2bb1
   csv (3.3.5) sha256=6e5134ac3383ef728b7f02725d9872934f523cb40b961479f69cf3afa6c8e73f
   date (3.5.1) sha256=750d06384d7b9c15d562c76291407d89e368dda4d4fff957eb94962d325a0dc0
@@ -484,7 +476,7 @@ CHECKSUMS
   jekyll-twitter-plugin (2.1.0) sha256=d25ee86813705244dcec3163d9a110a1c0216e157dcf6cf88ab57cf389887acd
   jekyll-watch (2.2.1) sha256=bc44ed43f5e0a552836245a54dbff3ea7421ecc2856707e8a1ee203a8387a7e1
   jemoji (0.13.0) sha256=5d4c3e8e2cbbb2b73997c31294f6f70c94e4d4fade039373e86835bcf5529e7c
-  json (2.19.9) sha256=9b9025b7cdddafa38d316eca0b2358488e42d417045c1b90d216a9fefe46b79a
+  json (2.21.2) sha256=1f1d3b7cf2b3ba1a69beca0bb6db13d5438b80bff3cd54cdaaa620b9b07c1c6a
   json-minify (0.0.3) sha256=fd38ef93867332c2340aaf1b57335782ab5958fe6fb3ca7a8aba1469f0bf08ae
   kramdown (2.5.2) sha256=1ba542204c66b6f9111ff00dcc26075b95b220b07f2905d8261740c82f7f02fa
   kramdown-parser-gfm (1.1.0) sha256=fb39745516427d2988543bf01fc4cf0ab1149476382393e0e9c48592f6581729
