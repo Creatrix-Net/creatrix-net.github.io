@@ -23,3 +23,12 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// Global override: remove underlines from all links (overrides Bootstrap/MDB defaults)
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  text-decoration: none !important;
+}

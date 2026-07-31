@@ -19,6 +19,10 @@ strong {
   color: var(--global-text-color);
 }
 
+p {
+  text-align: justify;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -38,10 +42,11 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-decoration: none;
 
   &:hover {
     color: var(--global-theme-color);
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   &:hover:after :not(.nav-item.dropdown) {
@@ -816,7 +821,7 @@ footer.sticky-bottom {
           vertical-align: middle;
 
           &:hover {
-            text-decoration: underline;
+            text-decoration: none;
           }
         }
       }

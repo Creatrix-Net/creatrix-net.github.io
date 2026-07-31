@@ -5,7 +5,7 @@ permalink: /products/
 description: Ongoing/Finished Products & Research.
 nav: true
 nav_order: 3
-display_categories: [research, defence, work, fun]
+display_categories: [defence, work, fun]
 horizontal: false
 ---
 
@@ -17,7 +17,7 @@ horizontal: false
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.products | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% assign sorted_projects = categorized_projects | default: empty | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
@@ -40,7 +40,7 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.products | sort: "importance" %}
+{% assign sorted_projects = site.products | default: empty | sort: "importance" %}
 
 <!-- Generate cards for each project -->
 
