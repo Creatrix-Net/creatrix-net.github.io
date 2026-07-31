@@ -3,9 +3,6 @@ name: Prettify gh-pages
 on:
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   format:
     runs-on: ubuntu-latest

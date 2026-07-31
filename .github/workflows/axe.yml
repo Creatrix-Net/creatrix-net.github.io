@@ -1,8 +1,5 @@
 name: Axe accessibility testing
 
-permissions:
-  contents: read
-
 on:
   # if you want to run this on every push uncomment the following lines
   # push:

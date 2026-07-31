@@ -5,7 +5,7 @@ description: Imagine a prosthetic arm that functions like your natural arm. You 
 tags: Bionic Arm Robotics Biotechnology Mind Control Prosthetics
 giscus_comments: true
 citation: true
-img: /assets/img/mcba/mcba_logo.jpeg
+img: /assets/img/products/mcba/mcba_logo.jpeg
 date: 2024-12-12
 importance: 2
 category: work
@@ -54,21 +54,21 @@ profiles:
       <p><a href="mailto:dhruvashaw@ieee.org">dhruvashaw@ieee.org</a></p>
       <p><a href="mailto:me@dhruvashaw.in">me@dhruvashaw.in</a></p>
   - align: left
-    image: at.png
+    image: products/mcba/at_icics23.jpg
     content: profile/about_arittrabha.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Arittrabha Sengupta</p>
       <p><a href="mailto:arittrabhasengupta@gmail.com">arittrabhasengupta@gmail.com</a></p>
   - align: right
-    image: mcba/jay_pic.jpg
+    image: products/mcba/jay_pic.jpg
     content: profile/about_jaykhaple.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Jay Baswaraj Khaple</p>
       <p><a href="mailto:khaplejay00@gmail.com">khaplejay00@gmail.com</a></p>
   - align: left
-    image: mcba/raam_pic.jpg
+    image: products/mcba/raam_pic.jpg
     content: profile/about_raamdheep.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -134,13 +134,13 @@ Throughout the internal SIH 2023 hackathon, we were fortunate to have the guidan
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/sih_project.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/sih_project.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Project which we displayed at SIH 2023 Internal Selection
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/sih_team.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/sih_team.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Initial Team at SIH 2023
         </div>
@@ -171,13 +171,13 @@ This blog will chronicle our ongoing research journey, detailing the challenges 
 
 Our next step was to present our work to a wider audience. We had the privilege of showcasing our research through a poster presentation at the 5th International Conference on Intelligent Circuits and Systems ([ICICS 2023](https://www.lpu.in/conferences/icics/icics2023)), held at LPU, Jalandhar, on October 12th, 2023.
 
-{% include figure.liquid loading="eager" path="assets/img/mcba/at_icics23.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/products/mcba/at_icics23.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 <div class="caption">
     Arittrabha Sengupta with our poster at ICICS 23
 </div>
 <br/>
-{% include figure.liquid loading="eager" path="assets/img/mcba/icics23.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/products/mcba/icics23.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
     Group photo of ICICS 23
 </div>
@@ -194,7 +194,7 @@ Building upon our initial successes, we aimed to further elevate our research by
 
 A pivotal moment in our research journey occurred on March 16, 2024, during the EE Research Day celebrations at IIT Ropar. Our team, comprising Dhruva Shaw and Arittrabha Sengupta, participated in the poster presentation competition. To our delight, our project secured second place! We learned about this competition through our IEEE network and never anticipated such a remarkable achievement.
 
-{% include figure.liquid loading="eager" path="assets/img/mcba/iitr/5_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/products/mcba/iitr/5_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 <div class="caption">
     Dhruva Shaw & Arittrabha Sengupta with appreciation certificate in front of IIT Ropar
@@ -204,13 +204,13 @@ A pivotal moment in our research journey occurred on March 16, 2024, during the 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/prize_recive_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/iitr/prize_recive_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Receiving 2nd prize for poster presentation
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/3_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/iitr/3_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Dhruva Shaw with the project poster at IIT Ropar
         </div>
@@ -219,23 +219,23 @@ A pivotal moment in our research journey occurred on March 16, 2024, during the 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/certificates_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/iitr/certificates_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/group_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/iitr/group_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/4_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/iitr/4_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/iitr/1_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/iitr/1_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
-{% include figure.liquid loading="eager" path="assets/img/mcba/iitr/2_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/products/mcba/iitr/2_iitr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 <div class="caption">
     Dhruva Shaw & Arittrabha Sengupta discussing the plan of action
@@ -279,7 +279,7 @@ The model development utilized a publicly available EEG dataset comprising data 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/16_electrode_system.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/16_electrode_system.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             16 dry electrodes - international 10-10 system <d-cite key="asanza2023"></d-cite>
         </div>
@@ -329,7 +329,7 @@ A **3-Degree-of-Freedom (DOF) robotic arm** was designed using **MATLAB Simulink
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/data_acquisition.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/data_acquisition.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             The whole workflow of the project <d-cite key="essa_kotte_2021"></d-cite>
         </div>
@@ -367,13 +367,13 @@ Here is the protocol(steps) to reproduce our work with ease. [Published in Proto
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/learninggraph.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/learninggraph.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Learning Graph
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcba/learninggraph_log.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/mcba/learninggraph_log.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             Learning Graph in Log Scale
         </div>
@@ -405,7 +405,7 @@ Here is the protocol(steps) to reproduce our work with ease. [Published in Proto
 {% tab results Confusion Matrix %}
 
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/mcba/confusion_matrix.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/products/mcba/confusion_matrix.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     <div class="caption">
         Confusin Matrix of the trained model.
     </div>
@@ -419,14 +419,14 @@ Here is the protocol(steps) to reproduce our work with ease. [Published in Proto
 
 ## Simulation in Simulink
 
-{% include figure.liquid loading="eager" path="assets/img/mcba/processsim.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/products/mcba/processsim.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 <div class="caption">
     Internal Data Acquisition Process Simulation
 </div>
 
 <br/>
-{% include figure.liquid loading="eager" path="assets/img/mcba/system_simulation.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/products/mcba/system_simulation.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
     Whole System Simulation
 </div>

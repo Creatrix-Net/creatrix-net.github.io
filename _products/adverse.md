@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /adverse/
-title: Adverse - Automated Open-Source Intelligence System for Digital Identity Verification and Cyber Surveillance
-description: Adverse is an advanced open-source intelligence (OSINT) and facial recognition system designed to aggregate, analyze, and verify publicly available digital information
-img: /assets/img/adverse.png
+title: Adverse - Automated Open-Source Intelligence System for Digital Identity Verification and Cyber Surveillance ©
+description: Adverse © is an advanced open-source intelligence (OSINT) and facial recognition system designed to aggregate, analyze, and verify publicly available digital information
+img: /assets/img/products/adverse.png
 original_base_url: "thecreativenet.in"
 category: defence
 giscus_comments: true
@@ -29,11 +29,11 @@ _styles: >
 ---
 
 <center>
-{% include figure.liquid loading="eager" path="assets/img/adverse.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/products/adverse.png" class="img-fluid rounded z-depth-1" %}
 </center>
 
 # ADVERSE — *Automated Open-Source Intelligence System*
-### *for Digital Identity Verification and Cyber Surveillance*
+### *for Digital Identity Verification and Cyber Surveillance* ©
 
 > **CLASSIFIED // OSINT — ADVERSE INTELLIGENCE PLATFORM v3.0**
 
@@ -252,10 +252,10 @@ Below I have shared a demo report which does not include all the parts of the re
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adverse/china_intel_brief.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/adverse/china_intel_brief.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adverse/china_intel_capabilities.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/adverse/china_intel_capabilities.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -263,16 +263,16 @@ Below I have shared a demo report which does not include all the parts of the re
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adverse/masood_azhar_executive_summary.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/adverse/masood_azhar_executive_summary.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adverse/masood_azhar_final_report.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/adverse/masood_azhar_final_report.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adverse/masood_azhar_social_search.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/adverse/masood_azhar_social_search.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adverse/masood_azhar_sentiment_keywords.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/products/adverse/masood_azhar_sentiment_keywords.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 

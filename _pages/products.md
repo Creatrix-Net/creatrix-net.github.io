@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Products
+title: Products & Research
 permalink: /products/
-description: Ongoing/Finished Products.
+description: Ongoing/Finished Products & Research.
 nav: true
 nav_order: 3
-display_categories: [defence, work, fun]
+display_categories: [research, defence, work, fun]
 horizontal: false
 ---
 

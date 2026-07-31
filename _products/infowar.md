@@ -2,7 +2,7 @@
 layout: page
 title: IWS (Information Warfare Simulator)
 description: IWS (Information Warfare Simulator) is an advanced, indigenous cognitive warfare training and simulation system designed to train defense personnel, intelligence officers, and strategic commanders. Driven by complex demographic algorithms and fuzzy logic, it empowers users to simulate and counter coordinated disinformation campaigns, deepfakes, and narrative manipulation across interconnected geographic regions in real-time.
-img: /assets/img/infowar.png
+img: /assets/img/products/infowar.png
 importance: 9
 category: defence
 giscus_comments: true
@@ -10,7 +10,7 @@ giscus_comments: true
 
 # Information Warfare Simulator (IWS) - Real-Time Cognitive Warfare & Red-Teaming Platform
 
-{% include figure.liquid loading="eager" path="assets/img/infowar.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/products/infowar.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 IWS (Information Warfare Simulator) is an advanced, indigenous cognitive warfare training and simulation system designed to train defense personnel, intelligence officers, and strategic commanders. Driven by complex demographic algorithms and fuzzy logic, it empowers users to simulate and counter coordinated disinformation campaigns, deepfakes, and narrative manipulation across interconnected geographic regions in real-time.
 

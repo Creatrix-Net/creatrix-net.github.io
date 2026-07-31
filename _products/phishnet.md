@@ -4,7 +4,7 @@ title: PhishNet
 description: An AI-based solution for the monitoring and detection of phishing domains and URLs.
 category: defence
 giscus_comments: true
-img: /assets/img/phishnet/phishnet.png
+img: /assets/img/phishnet/products/phishnet.png
 date: 2025-09-06
 pretty_table: true
 ---
