@@ -68,21 +68,25 @@ Google Analytics is free and widely used. It provides detailed insights into vis
 ### Setup Steps
 
 1. **Create a Google Analytics account:**
+
    - Visit [Google Analytics](https://analytics.google.com)
    - Sign in with your Google account
    - Click **Start measuring** → **Create account**
 
 2. **Create a property for your website:**
+
    - Enter your website name and URL
    - Accept terms and continue
    - Choose your timezone and currency
 
 3. **Get your Measurement ID:**
+
    - In the left sidebar, go to **Admin** → **Properties**
    - Click **Data Streams** → **Web** (or your existing stream)
    - Copy the **Measurement ID** (format: `G-XXXXXXXXXX`)
 
 4. **Enable in your site:**
+
    - Open `_config.yml` in your repository
    - Set your Measurement ID under the `analytics` block: `analytics.google: G-XXXXXXXXXX`
    - Commit and push
