@@ -1,0 +1,1 @@
+const{test:test,expect:expect}=require("@playwright/test");test("landing page renders",async({page:e})=>{await e.goto("/"),await expect(e).toHaveTitle(/Creative|Net|Creative Net/i),await expect(e.locator("body")).toContainText(/Creative|Net|Build/i)});
