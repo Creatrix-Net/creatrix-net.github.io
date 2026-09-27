@@ -18,7 +18,6 @@ This version marks a major overhaul of the `fluxpoint.py` library, aligning it c
 
 - ✅ **Modular Restructuring**: The entire library has been split into clearly defined modules based on endpoint categories such as `Convert`, `Color`, `Minecraft`, `Utility`, `ImageGen`, and more.
 - ⚙️ **Complete API Coverage**: The wrapper now supports nearly all documented endpoints including:
-
   - `/convert`
   - `/color`
   - `/mc`
@@ -29,7 +28,6 @@ This version marks a major overhaul of the `fluxpoint.py` library, aligning it c
 
 - 📦 **Dynamic Versioning**: The version is now updated internally and reflected dynamically in requests.
 - 📚 **Rebranded Documentation**:
-
   - Moved under the new namespace: `Creatrix-Net`
   - ReadTheDocs link updated: [[fluxpointpy.dhruvashaw.in](https://fluxpointpy.dhruvashaw.in/en/latest/)](https://fluxpointpy.dhruvashaw.in/en/latest/)
 
@@ -46,36 +44,29 @@ This version marks a major overhaul of the `fluxpoint.py` library, aligning it c
 #### 🖼️ Image Generation
 
 - Split `ImageGenerator` into:
-
   - `CustomImage`: For fully customizable graphics using `images`, `texts`, colors, dimensions.
   - `Template`: For template-based welcome images.
 
 #### 🌈 New Features
 
 - **Color API**:
-
   - `random()` – fetch random colors
   - `info()` – fetch color info by name, hex, or RGB
 
 - **Convert API**:
-
   - HTML ↔ Markdown
   - Image format conversion (`png`, `webp`, `jpg`) with quality settings
 
 - **Minecraft API**:
-
   - Ping server, get player UUID, retrieve skins with `SkinType`
 
 - **Utility API**:
-
   - Convert Unix timestamp / Discord snowflake to human-readable formats
 
 - **List API**:
-
   - Fetch lists of available banners, icons, fonts
 
 - **Tests API**:
-
   - Provides endpoints to validate API, images, JSON, gallery, and error handling
 
 ---
@@ -92,7 +83,6 @@ This version marks a major overhaul of the `fluxpoint.py` library, aligning it c
 ### 🧪 Examples Refreshed
 
 - Simplified and tested examples across:
-
   - `simple_request.py`
   - `custom_generator_test.py`
   - `welcome_image.py`
