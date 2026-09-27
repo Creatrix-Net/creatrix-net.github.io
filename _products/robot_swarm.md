@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Letting Robots Vote for Their Own Leader — Decentralized Master-Slave Election in Swarms
+title: Intelligent Swarms
 date: 2026-07-30 09:00:00
 description: A fully decentralized, hysteresis-and-consensus-based dynamic leader election algorithm for robotic swarms, validated in simulation and on ESP32 hardware.
 category: defence
